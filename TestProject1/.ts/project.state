@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfOpenItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <OpenItem>
+    <OpenItemType>TestFile</OpenItemType>
+    <Path>C:\Users\tsprague\Documents\Test Studio Projects\TestProject1\Login TS Site.tstest</Path>
+  </OpenItem>
+  <OpenItem>
+    <OpenItemType>TestFile</OpenItemType>
+    <Path>C:\Users\tsprague\Documents\Test Studio Projects\TestProject1\Close PM WO with labor PMResult.tstest</Path>
+  </OpenItem>
+</ArrayOfOpenItem>
