@@ -2,10 +2,10 @@
 <ArrayOfOpenItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <OpenItem>
     <OpenItemType>TestFile</OpenItemType>
-    <Path>C:\Users\tsprague\Documents\Test Studio Projects\TestProject1\Login TS Site.tstest</Path>
+    <Path>C:\source\Aims3AutomatedTesting\TestProject1\WO Test SD is populated.tstest</Path>
   </OpenItem>
   <OpenItem>
     <OpenItemType>TestFile</OpenItemType>
-    <Path>C:\Users\tsprague\Documents\Test Studio Projects\TestProject1\Close PM WO with labor PMResult.tstest</Path>
+    <Path>C:\source\Aims3AutomatedTesting\TestProject1\Login to TS Site.tstest</Path>
   </OpenItem>
 </ArrayOfOpenItem>

@@ -1,0 +1,227 @@
+﻿{
+  "Id": null,
+  "Data": {
+    "__type": "ArtOfTest.WebAii.Design.Execution.RunResult",
+    "__value": {
+      "IsComplete": true,
+      "Name": "Close PM WO with labor PMResult 132794316100299096",
+      "StartTime": "2021-10-23T03:00:10.0458415Z",
+      "EndTime": "2021-10-23T03:00:36.7337967Z",
+      "Id": "6f436bc8-6db2-424a-ad8e-14fd2ffde491",
+      "PassedResult": false,
+      "IsRerun": false,
+      "HasWarnings": false,
+      "PassedCount": 0,
+      "FailedCount": 1,
+      "NotRunCount": 0,
+      "DispatchGroupId": "35b61a78-13cb-4f03-9740-907902693d8e",
+      "DataCollectors": {},
+      "TestResults": [
+        {
+          "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+          "__value": {
+            "Browser": 7,
+            "ExeType": 5,
+            "SeparatorLineCharCount": 60,
+            "Message": "Overall Result: Fail\r\n------------------------------------------------------------\r\n'10/22/2021 11:00:15 PM' - Executing test: 'Close PM WO with labor PMResult', path: 'Close PM WO with labor PMResult.tstest.'\r\n'10/22/2021 11:00:15 PM' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2021.2.809.0'.\r\n'10/22/2021 11:00:15 PM' - Starting execution....\r\n------------------------------------------------------------\r\n'10/22/2021 11:00:16 PM' - Tip: The current monitor(s) setup is not at 100% scale!\nFor best recording and execution experience please set all monitor scaling to 100%.\r\n------------------------------------------------------------\r\n------------------------------------------------------------\r\n'10/22/2021 11:00:20 PM' - Using 'Chrome' version '94.0.4606.81' as default browser. \r\n'10/22/2021 11:00:20 PM' - Emulating device with resolution of 411x823 and user agent 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36'. \r\n'10/22/2021 11:00:20 PM' - Using 'https://aims3ts.aimsasp.net/' as base url.\r\n'10/22/2021 11:00:31 PM' - 'Pass' : 1. Navigate to : '/'\r\n'10/22/2021 11:00:33 PM' - 'Fail' : 2. Enter text 'firebird' in 'Password'\r\n------------------------------------------------------------\r\nFailure Information: \r\n~~~~~~~~~~~~~~~\r\nSendInput: Failed. Win32Error: \r\nInnerException:\r\nSystem.ComponentModel.Win32Exception (0x80004005): SendInput: Failed. Win32Error: \r\n   at ArtOfTest.WebAii.Win32.Win32NativeMethods.SendInputInternal(Input[] inputData)\r\n   at ArtOfTest.WebAii.Win32.KeyBoard.TypeTextUnicodeInt(String text, Int32 delayBetweenKeypresses, Int32 keyHoldTime)\r\n   at ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor.Execute(Browser browser)\r\n   at ArtOfTest.WebAii.Design.Extensibility.HtmlActionDescriptor.Execute(IAutomationHost autoHost)\r\n   at ArtOfTest.WebAii.Design.Execution.ExecutionEngine.ExecuteStep(Int32 order)\r\n------------------------------------------------------------\r\n'10/22/2021 11:00:33 PM' - Detected a failure. Step is marked 'ContinueOnFailure=False' aborting test execution.\r\n------------------------------------------------------------\r\n'10/22/2021 11:00:33 PM' - Overall Result: Fail\r\n'10/22/2021 11:00:33 PM' - Duration: [0 min: 13 sec: 33 msec]\r\n------------------------------------------------------------\r\n'10/22/2021 11:00:36 PM' - Test completed!\r\n\r\n",
+            "ScreenRecordingResultPath": null,
+            "ScreenRecordingResultError": null,
+            "ScreenRecordingResultCodec": null,
+            "ScreenRecordingResultSize": 0,
+            "FailureException": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.ExecutionException",
+  "__value": {
+    "message": "SendInput: Failed. Win32Error: ",
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "Close PM WO with labor PMResult 132794316100299096_files\\Close PM WO with labor PMResult_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "Close PM WO with labor PMResult 132794316100299096_files\\Close PM WO with labor PMResult_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (AIMS)' @10/22/2021 11:00:33 PM"
+            }
+          }
+        }
+      }
+    }
+  }
+},
+            "Result": 1,
+            "TestId": "4ec7e810-4387-474d-a8e6-bc9abac8f7d9",
+            "TestName": "Close PM WO with labor PMResult",
+            "IsRerun": false,
+            "TestPath": "Close PM WO with labor PMResult.tstest",
+            "TestOwner": "",
+            "TestDescription": "",
+            "ProjectPath": "",
+            "StepResults": [
+              {
+                "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                "__value": {
+                  "TestName": "Close PM WO with labor PMResult",
+                  "TestPath": "Close PM WO with labor PMResult.tstest",
+                  "TestId": "4ec7e810-4387-474d-a8e6-bc9abac8f7d9",
+                  "TestStepIndex": 0,
+                  "StepDescription": "Navigate to : '/'",
+                  "Exception": null,
+                  "ResultType": 0,
+                  "State": {
+                    "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                    "__value": {
+                      "Mode": 1,
+                      "DomFilePath": null,
+                      "ImageFilePath": null,
+                      "ExpectedImageFilePath": null,
+                      "TechnologyType": 1,
+                      "FriendlyName": "Capture Of 'Page (AIMS)' @10/22/2021 11:00:31 PM"
+                    }
+                  },
+                  "Order": 1,
+                  "LogMessageOnError": "",
+                  "UserComment": null,
+                  "HashCode": 1347723234,
+                  "IsManual": false,
+                  "WasStepEnabled": false,
+                  "Warnings": null
+                }
+              },
+              {
+                "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                "__value": {
+                  "TestName": "Close PM WO with labor PMResult",
+                  "TestPath": "Close PM WO with labor PMResult.tstest",
+                  "TestId": "4ec7e810-4387-474d-a8e6-bc9abac8f7d9",
+                  "TestStepIndex": 1,
+                  "StepDescription": "Enter text 'firebird' in 'Password'",
+                  "Exception": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.ExecutionException",
+  "__value": {
+    "message": "SendInput: Failed. Win32Error: ",
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "Close PM WO with labor PMResult 132794316100299096_files\\Close PM WO with labor PMResult_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "Close PM WO with labor PMResult 132794316100299096_files\\Close PM WO with labor PMResult_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (AIMS)' @10/22/2021 11:00:33 PM"
+            }
+          }
+        }
+      }
+    }
+  }
+},
+                  "ResultType": 1,
+                  "State": {
+                    "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                    "__value": {
+                      "Mode": 2,
+                      "DomFilePath": "Close PM WO with labor PMResult 132794316100299096_files\\Close PM WO with labor PMResult_0_DomTreeOnFailure.txt",
+                      "ImageFilePath": "Close PM WO with labor PMResult 132794316100299096_files\\Close PM WO with labor PMResult_0_ImageOnFailure.png",
+                      "ExpectedImageFilePath": null,
+                      "TechnologyType": 1,
+                      "FriendlyName": "Capture Of 'Page (AIMS)' @10/22/2021 11:00:33 PM"
+                    }
+                  },
+                  "Order": 2,
+                  "LogMessageOnError": "",
+                  "UserComment": null,
+                  "HashCode": 1106498604,
+                  "IsManual": false,
+                  "WasStepEnabled": false,
+                  "Warnings": null
+                }
+              }
+            ],
+            "NotRunStepDescriptions": [
+              "Keyboard (KeyPress) - Enter (1 times) on 'Password'",
+              "Click 'SignIn'",
+              "Click 'WorkOrderSpan'",
+              "Enter text '8188' in 'Number'",
+              "Keyboard (KeyPress) - Tab (1 times) on 'Text'",
+              "Click 'Update Tab'",
+              "Verify input 'WO Status' value 'Exact' 'Open'.",
+              "IF (Verify input 'WO Status' value 'Exact' 'Open'.)"
+            ],
+            "TotalPassedSteps": 1,
+            "ExecutingTestStepCount": 2,
+            "TotalNumberOfNotRunSteps": 0,
+            "IsDataDrivenResult": false,
+            "DataIterationResults": [],
+            "EndTime": "2021-10-23T03:00:33.5632666Z",
+            "StartTime": "2021-10-23T03:00:20.5297826Z",
+            "ProfilerResultsPath": null,
+            "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+            "CommitedBy": null,
+            "HasWarnings": false
+          }
+        }
+      ],
+      "FileName": "Close PM WO with labor PMResult 132794316100299096",
+      "Machine": {
+        "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.Machine",
+        "__value": {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "NetworkName": "PDS-LT-01",
+          "OperatingSystem": "Windows 10",
+          "InstalledBrowsers": [
+            {
+              "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+              "__value": {
+                "Type": 1,
+                "Version": "9.11.19041.0",
+                "IsConfigured": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+              "__value": {
+                "Type": 2,
+                "Version": "93.0 (x64 en-US)",
+                "IsConfigured": true
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+              "__value": {
+                "Type": 7,
+                "Version": "94.0.4606.81",
+                "IsConfigured": true
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+              "__value": {
+                "Type": 10,
+                "Version": "94.0.992.50",
+                "IsConfigured": true
+              }
+            }
+          ],
+          "Status": 0,
+          "ServiceUri": null,
+          "DBState": 0,
+          "UserName": "TSPrague"
+        }
+      },
+      "Messages": null,
+      "RunId": "6f436bc8-6db2-424a-ad8e-14fd2ffde491",
+      "Comment": null,
+      "TestListId": "0772f3fc-da3a-4492-a8d0-c9a92f370bc0",
+      "IsManual": false
+    }
+  },
+  "Metadata": null
+}

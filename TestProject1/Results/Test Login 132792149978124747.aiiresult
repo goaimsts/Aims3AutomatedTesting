@@ -1,0 +1,125 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.Execution.RunResult",
+  "__value": {
+    "IsComplete": true,
+    "Name": "Test Login",
+    "StartTime": "2021-10-20T14:49:50Z",
+    "EndTime": "2021-10-20T14:49:57.8094826Z",
+    "Id": "3023a3ea-d066-497e-b91d-29b232d88d1e",
+    "PassedResult": false,
+    "IsRerun": false,
+    "HasWarnings": false,
+    "PassedCount": 0,
+    "FailedCount": 1,
+    "NotRunCount": 0,
+    "DispatchGroupId": "00000000-0000-0000-0000-000000000000",
+    "DataCollectors": {},
+    "TestResults": [
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+        "__value": {
+          "Browser": 2,
+          "ExeType": 0,
+          "SeparatorLineCharCount": 60,
+          "Message": "------------------------------------------------------------\r\n'10/20/2021 10:49:51 AM' - Executing test: 'Login to TS Site', path: 'Login to TS Site.tstest.'\r\n'10/20/2021 10:49:51 AM' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2021.2.809.0'.\r\n'10/20/2021 10:49:51 AM' - Starting execution....\r\n------------------------------------------------------------\r\n'10/20/2021 10:49:51 AM' - Tip: The current monitor(s) setup is not at 100% scale!\nFor best recording and execution experience please set all monitor scaling to 100%.\r\n'10/20/2021 10:49:56 AM' - Failure detected during execution. Details:\r\n------------------------------------------------------------\r\n'10/20/2021 10:49:56 AM' - System.NotSupportedException: Current browser does not support responsive web mode.\r\n   at ArtOfTest.WebAii.Core.Actions.EnableResponsiveWebMode(Boolean enable)\r\n   at ArtOfTest.WebAii.Design.Execution.ExecutionEngine.InitializeResponsiveWeb(ExecutionEngineCreateParams initParams)\r\n   at ArtOfTest.WebAii.Design.Execution.TestExecuteProxy.CreateAndInitializeEngine(Test test, ExecutionEngineCreateParams cp)\r\n   at ArtOfTest.WebAii.Design.Execution.TestExecuteProxy.ExecuteTest(ExecuteTestCommand command)\r\n------------------------------------------------------------\r\n'10/20/2021 10:49:57 AM' - Test completed!\r\n",
+          "ScreenRecordingResultPath": null,
+          "ScreenRecordingResultError": null,
+          "ScreenRecordingResultCodec": null,
+          "ScreenRecordingResultSize": 0,
+          "FailureException": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.ExecutionException",
+  "__value": {
+    "message": "General execution error.",
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": null
+        }
+      }
+    }
+  }
+},
+          "Result": 1,
+          "TestId": "19689407-021b-4651-96b2-5c71b80cea5f",
+          "TestName": "Login to TS Site",
+          "IsRerun": false,
+          "TestPath": "Login to TS Site.tstest",
+          "TestOwner": "",
+          "TestDescription": "",
+          "ProjectPath": "",
+          "StepResults": [],
+          "NotRunStepDescriptions": [
+            "Navigate to : '/'",
+            "Enter text 'firebird' in 'Password'",
+            "Click 'SignIn'",
+            "Wait for Exists 'AccountButton'"
+          ],
+          "TotalPassedSteps": 0,
+          "ExecutingTestStepCount": 0,
+          "TotalNumberOfNotRunSteps": 0,
+          "IsDataDrivenResult": false,
+          "DataIterationResults": [],
+          "EndTime": "2021-10-20T14:49:51.2005408Z",
+          "StartTime": "2021-10-20T14:49:51.2005408Z",
+          "ProfilerResultsPath": null,
+          "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+          "CommitedBy": null,
+          "HasWarnings": false
+        }
+      }
+    ],
+    "FileName": "Test Login 132792149978124747",
+    "Machine": {
+      "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.Machine",
+      "__value": {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "NetworkName": "PDS-LT-01",
+        "OperatingSystem": "Windows 10",
+        "InstalledBrowsers": [
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 1,
+              "Version": "9.11.19041.0",
+              "IsConfigured": false
+            }
+          },
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 2,
+              "Version": "93.0 (x64 en-US)",
+              "IsConfigured": true
+            }
+          },
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 7,
+              "Version": "94.0.4606.81",
+              "IsConfigured": true
+            }
+          },
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 10,
+              "Version": "94.0.992.50",
+              "IsConfigured": true
+            }
+          }
+        ],
+        "Status": 0,
+        "ServiceUri": null,
+        "DBState": 0,
+        "UserName": "TSPrague"
+      }
+    },
+    "Messages": null,
+    "RunId": "3023a3ea-d066-497e-b91d-29b232d88d1e",
+    "Comment": null,
+    "TestListId": "875f9c1d-6081-481b-ab9d-381d0eb7152d",
+    "IsManual": false
+  }
+}

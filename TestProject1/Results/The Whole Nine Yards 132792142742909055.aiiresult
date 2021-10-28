@@ -1,0 +1,1631 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.Execution.RunResult",
+  "__value": {
+    "IsComplete": true,
+    "Name": "The Whole Nine Yards",
+    "StartTime": "2021-10-20T14:36:12Z",
+    "EndTime": "2021-10-20T14:37:54.2859187Z",
+    "Id": "6a03f282-6d27-4c6e-91e5-4b21b16ccc7f",
+    "PassedResult": false,
+    "IsRerun": false,
+    "HasWarnings": false,
+    "PassedCount": 3,
+    "FailedCount": 1,
+    "NotRunCount": 0,
+    "DispatchGroupId": "00000000-0000-0000-0000-000000000000",
+    "DataCollectors": {},
+    "TestResults": [
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+        "__value": {
+          "Browser": 7,
+          "ExeType": 5,
+          "SeparatorLineCharCount": 60,
+          "Message": "Overall Result: Pass\r\n------------------------------------------------------------\r\n'10/20/2021 10:36:13 AM' - Executing test: 'Close PM WO with labor PMResult', path: 'Close PM WO with labor PMResult.tstest.'\r\n'10/20/2021 10:36:13 AM' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2021.2.809.0'.\r\n'10/20/2021 10:36:13 AM' - Starting execution....\r\n------------------------------------------------------------\r\n'10/20/2021 10:36:13 AM' - Tip: The current monitor(s) setup is not at 100% scale!\nFor best recording and execution experience please set all monitor scaling to 100%.\r\n------------------------------------------------------------\r\n------------------------------------------------------------\r\n'10/20/2021 10:36:43 AM' - Using 'Chrome' version '94.0.4606.81' as default browser. \r\n'10/20/2021 10:36:43 AM' - Emulating device with resolution of 411x823 and user agent 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36'. \r\n'10/20/2021 10:36:43 AM' - Using 'https://aims3ts.aimsasp.net/' as base url.\r\n'10/20/2021 10:36:45 AM' - 'Pass' : 1. Navigate to : '/'\r\n'10/20/2021 10:36:47 AM' - 'Pass' : 2. Enter text 'firebird' in 'Password'\r\n'10/20/2021 10:36:47 AM' - 'Pass' : 3. Keyboard (KeyPress) - Enter (1 times) on 'Password'\r\n'10/20/2021 10:36:48 AM' - 'Pass' : 4. Click 'SignIn'\r\n'10/20/2021 10:36:50 AM' - 'Pass' : 5. Click 'WorkOrderSpan'\r\n'10/20/2021 10:36:53 AM' - 'Pass' : 6. Enter text '8188' in 'Number'\r\n'10/20/2021 10:36:54 AM' - 'Pass' : 7. Keyboard (KeyPress) - Tab (1 times) on 'Text'\r\n'10/20/2021 10:36:54 AM' - 'Pass' : 8. Click 'Update Tab'\r\n'10/20/2021 10:36:54 AM' - 'NotRun' : 9. Verify input 'WO Status' value 'Exact' 'Open'.\r\n'10/20/2021 10:36:56 AM' - 'Pass' : 10. ELSE\r\nLogical step encountered. Executing branch => ELSE:\r\n------------------------------------------------------------\r\nCondition Evaluation Details:\r\n\r\nParameters:\r\n-----------\r\nCompareType     = 'Exact'\r\nExpectedValue   = Expected:[Open] , Actual:[Closed]\r\n\r\n------------------------------------------------------------\r\n------------------------------------------------------------\r\n'10/20/2021 10:36:55 AM' - Using 'Chrome' version '94.0.4606.81' as default browser. \r\n'10/20/2021 10:36:55 AM' - Emulating device with resolution of 411x823 and user agent 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36'. \r\n'10/20/2021 10:36:55 AM' - Using 'https://aims3ts.aimsasp.net/' as base url.\r\n'10/20/2021 10:36:55 AM' - 'Pass' : 16. Click 'ReOpenButton'\r\n'10/20/2021 10:36:56 AM' - 'Pass' : 17. Click 'ConfirmReOpen'\r\n'10/20/2021 10:36:56 AM' - 'Pass' : 18. Verify input 'WO Status' value 'Exact' 'Open'.\r\n\r\n------------------------------------------------------------\r\n'10/20/2021 10:36:56 AM' - Overall Result: Pass\r\n'10/20/2021 10:36:56 AM' - Duration: [0 min: 13 sec: 372 msec]\r\n------------------------------------------------------------\r\n'10/20/2021 10:36:58 AM' - Test completed!\r\n",
+          "ScreenRecordingResultPath": null,
+          "ScreenRecordingResultError": null,
+          "ScreenRecordingResultCodec": null,
+          "ScreenRecordingResultSize": 0,
+          "FailureException": null,
+          "Result": 0,
+          "TestId": "4ec7e810-4387-474d-a8e6-bc9abac8f7d9",
+          "TestName": "Close PM WO with labor PMResult",
+          "IsRerun": false,
+          "TestPath": "Close PM WO with labor PMResult.tstest",
+          "TestOwner": "",
+          "TestDescription": "",
+          "ProjectPath": "",
+          "StepResults": [
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "Close PM WO with labor PMResult",
+                "TestPath": "Close PM WO with labor PMResult.tstest",
+                "TestId": "4ec7e810-4387-474d-a8e6-bc9abac8f7d9",
+                "TestStepIndex": 0,
+                "StepDescription": "Navigate to : '/'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:36:45 AM"
+                  }
+                },
+                "Order": 1,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1347723234,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "Close PM WO with labor PMResult",
+                "TestPath": "Close PM WO with labor PMResult.tstest",
+                "TestId": "4ec7e810-4387-474d-a8e6-bc9abac8f7d9",
+                "TestStepIndex": 1,
+                "StepDescription": "Enter text 'firebird' in 'Password'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:36:47 AM"
+                  }
+                },
+                "Order": 2,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498604,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "Close PM WO with labor PMResult",
+                "TestPath": "Close PM WO with labor PMResult.tstest",
+                "TestId": "4ec7e810-4387-474d-a8e6-bc9abac8f7d9",
+                "TestStepIndex": 2,
+                "StepDescription": "Keyboard (KeyPress) - Enter (1 times) on 'Password'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:36:47 AM"
+                  }
+                },
+                "Order": 3,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -1170792671,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "Close PM WO with labor PMResult",
+                "TestPath": "Close PM WO with labor PMResult.tstest",
+                "TestId": "4ec7e810-4387-474d-a8e6-bc9abac8f7d9",
+                "TestStepIndex": 3,
+                "StepDescription": "Click 'SignIn'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:36:48 AM"
+                  }
+                },
+                "Order": 4,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960563,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "Close PM WO with labor PMResult",
+                "TestPath": "Close PM WO with labor PMResult.tstest",
+                "TestId": "4ec7e810-4387-474d-a8e6-bc9abac8f7d9",
+                "TestStepIndex": 4,
+                "StepDescription": "Click 'WorkOrderSpan'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:36:50 AM"
+                  }
+                },
+                "Order": 5,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960564,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "Close PM WO with labor PMResult",
+                "TestPath": "Close PM WO with labor PMResult.tstest",
+                "TestId": "4ec7e810-4387-474d-a8e6-bc9abac8f7d9",
+                "TestStepIndex": 5,
+                "StepDescription": "Enter text '8188' in 'Number'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:36:53 AM"
+                  }
+                },
+                "Order": 6,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498608,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "Close PM WO with labor PMResult",
+                "TestPath": "Close PM WO with labor PMResult.tstest",
+                "TestId": "4ec7e810-4387-474d-a8e6-bc9abac8f7d9",
+                "TestStepIndex": 6,
+                "StepDescription": "Keyboard (KeyPress) - Tab (1 times) on 'Text'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:36:54 AM"
+                  }
+                },
+                "Order": 7,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -1170792667,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "Close PM WO with labor PMResult",
+                "TestPath": "Close PM WO with labor PMResult.tstest",
+                "TestId": "4ec7e810-4387-474d-a8e6-bc9abac8f7d9",
+                "TestStepIndex": 7,
+                "StepDescription": "Click 'Update Tab'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:36:54 AM"
+                  }
+                },
+                "Order": 8,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960567,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "Close PM WO with labor PMResult",
+                "TestPath": "Close PM WO with labor PMResult.tstest",
+                "TestId": "4ec7e810-4387-474d-a8e6-bc9abac8f7d9",
+                "TestStepIndex": 8,
+                "StepDescription": "Verify input 'WO Status' value 'Exact' 'Open'.",
+                "Exception": null,
+                "ResultType": 2,
+                "State": null,
+                "Order": 9,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 950034504,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.Execution.LogicalStepResult",
+              "__value": {
+                "InnerResult": {
+                  "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+                  "__value": {
+                    "Browser": 0,
+                    "ExeType": 5,
+                    "SeparatorLineCharCount": 60,
+                    "Message": "------------------------------------------------------------\r\n'10/20/2021 10:36:55 AM' - Using 'Chrome' version '94.0.4606.81' as default browser. \r\n'10/20/2021 10:36:55 AM' - Emulating device with resolution of 411x823 and user agent 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36'. \r\n'10/20/2021 10:36:55 AM' - Using 'https://aims3ts.aimsasp.net/' as base url.\r\n'10/20/2021 10:36:55 AM' - 'Pass' : 16. Click 'ReOpenButton'\r\n'10/20/2021 10:36:56 AM' - 'Pass' : 17. Click 'ConfirmReOpen'\r\n'10/20/2021 10:36:56 AM' - 'Pass' : 18. Verify input 'WO Status' value 'Exact' 'Open'.\r\n",
+                    "ScreenRecordingResultPath": null,
+                    "ScreenRecordingResultError": null,
+                    "ScreenRecordingResultCodec": null,
+                    "ScreenRecordingResultSize": 0,
+                    "FailureException": null,
+                    "Result": 0,
+                    "TestId": "4ec7e810-4387-474d-a8e6-bc9abac8f7d9",
+                    "TestName": "",
+                    "IsRerun": false,
+                    "TestPath": null,
+                    "TestOwner": "",
+                    "TestDescription": "",
+                    "ProjectPath": "",
+                    "StepResults": [
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "Close PM WO with labor PMResult",
+                          "TestPath": "Close PM WO with labor PMResult.tstest",
+                          "TestId": "4ec7e810-4387-474d-a8e6-bc9abac8f7d9",
+                          "TestStepIndex": 0,
+                          "StepDescription": "Click 'ReOpenButton'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": {
+                            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                            "__value": {
+                              "Mode": 1,
+                              "DomFilePath": null,
+                              "ImageFilePath": null,
+                              "ExpectedImageFilePath": null,
+                              "TechnologyType": 1,
+                              "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:36:55 AM"
+                            }
+                          },
+                          "Order": 16,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 2087960560,
+                          "IsManual": false,
+                          "WasStepEnabled": false,
+                          "Warnings": null
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "Close PM WO with labor PMResult",
+                          "TestPath": "Close PM WO with labor PMResult.tstest",
+                          "TestId": "4ec7e810-4387-474d-a8e6-bc9abac8f7d9",
+                          "TestStepIndex": 1,
+                          "StepDescription": "Click 'ConfirmReOpen'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": {
+                            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                            "__value": {
+                              "Mode": 1,
+                              "DomFilePath": null,
+                              "ImageFilePath": null,
+                              "ExpectedImageFilePath": null,
+                              "TechnologyType": 1,
+                              "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:36:56 AM"
+                            }
+                          },
+                          "Order": 17,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 2087960561,
+                          "IsManual": false,
+                          "WasStepEnabled": false,
+                          "Warnings": null
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "Close PM WO with labor PMResult",
+                          "TestPath": "Close PM WO with labor PMResult.tstest",
+                          "TestId": "4ec7e810-4387-474d-a8e6-bc9abac8f7d9",
+                          "TestStepIndex": 2,
+                          "StepDescription": "Verify input 'WO Status' value 'Exact' 'Open'.",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": {
+                            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                            "__value": {
+                              "Mode": 1,
+                              "DomFilePath": null,
+                              "ImageFilePath": null,
+                              "ExpectedImageFilePath": null,
+                              "TechnologyType": 1,
+                              "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:36:56 AM"
+                            }
+                          },
+                          "Order": 18,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 950034498,
+                          "IsManual": false,
+                          "WasStepEnabled": false,
+                          "Warnings": null
+                        }
+                      }
+                    ],
+                    "NotRunStepDescriptions": [],
+                    "TotalPassedSteps": 3,
+                    "ExecutingTestStepCount": 3,
+                    "TotalNumberOfNotRunSteps": 0,
+                    "IsDataDrivenResult": false,
+                    "DataIterationResults": [],
+                    "EndTime": "2021-10-20T14:36:55.0998616Z",
+                    "StartTime": "2021-10-20T14:36:55.0998616Z",
+                    "ProfilerResultsPath": null,
+                    "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+                    "CommitedBy": null,
+                    "HasWarnings": false
+                  }
+                },
+                "ChildResult": {
+                  "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+                  "__value": {
+                    "Browser": 0,
+                    "ExeType": 5,
+                    "SeparatorLineCharCount": 60,
+                    "Message": "",
+                    "ScreenRecordingResultPath": null,
+                    "ScreenRecordingResultError": null,
+                    "ScreenRecordingResultCodec": null,
+                    "ScreenRecordingResultSize": 0,
+                    "FailureException": null,
+                    "Result": 2,
+                    "TestId": "4ec7e810-4387-474d-a8e6-bc9abac8f7d9",
+                    "TestName": "Close PM WO with labor PMResult",
+                    "IsRerun": false,
+                    "TestPath": "Close PM WO with labor PMResult.tstest",
+                    "TestOwner": "",
+                    "TestDescription": "",
+                    "ProjectPath": "",
+                    "StepResults": [],
+                    "NotRunStepDescriptions": [
+                      "Navigate to : '/'",
+                      "Enter text 'firebird' in 'Password'",
+                      "Keyboard (KeyPress) - Enter (1 times) on 'Password'",
+                      "Click 'SignIn'",
+                      "Click 'WorkOrderSpan'",
+                      "Enter text '8188' in 'Number'",
+                      "Keyboard (KeyPress) - Tab (1 times) on 'Text'",
+                      "Click 'Update Tab'",
+                      "Verify input 'WO Status' value 'Exact' 'Open'.",
+                      "IF (Verify input 'WO Status' value 'Exact' 'Open'.)"
+                    ],
+                    "TotalPassedSteps": 0,
+                    "ExecutingTestStepCount": 0,
+                    "TotalNumberOfNotRunSteps": 0,
+                    "IsDataDrivenResult": false,
+                    "DataIterationResults": [],
+                    "EndTime": "2021-10-20T14:36:55.0998616Z",
+                    "StartTime": "2021-10-20T14:36:55.0998616Z",
+                    "ProfilerResultsPath": null,
+                    "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+                    "CommitedBy": null,
+                    "HasWarnings": false
+                  }
+                },
+                "LogicDetails": "Condition Evaluation Details:\r\n\r\nParameters:\r\n-----------\r\nCompareType     = 'Exact'\r\nExpectedValue   = Expected:[Open] , Actual:[Closed]\r\n",
+                "LoopIteration": 1,
+                "IsLoop": false,
+                "Exception": null,
+                "TestName": "Close PM WO with labor PMResult",
+                "TestPath": "Close PM WO with labor PMResult.tstest",
+                "TestId": "4ec7e810-4387-474d-a8e6-bc9abac8f7d9",
+                "TestStepIndex": 9,
+                "StepDescription": "ELSE",
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:36:55 AM"
+                  }
+                },
+                "Order": 10,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -206396952,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            }
+          ],
+          "NotRunStepDescriptions": [],
+          "TotalPassedSteps": 9,
+          "ExecutingTestStepCount": 9,
+          "TotalNumberOfNotRunSteps": 1,
+          "IsDataDrivenResult": false,
+          "DataIterationResults": [],
+          "EndTime": "2021-10-20T14:36:56.814891Z",
+          "StartTime": "2021-10-20T14:36:43.4421263Z",
+          "ProfilerResultsPath": null,
+          "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+          "CommitedBy": null,
+          "HasWarnings": false
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+        "__value": {
+          "Browser": 7,
+          "ExeType": 5,
+          "SeparatorLineCharCount": 60,
+          "Message": "Overall Result: Pass\r\n------------------------------------------------------------\r\n'10/20/2021 10:36:58 AM' - Executing test: 'Login to TS Site', path: 'Login to TS Site.tstest.'\r\n'10/20/2021 10:36:58 AM' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2021.2.809.0'.\r\n'10/20/2021 10:36:58 AM' - Starting execution....\r\n------------------------------------------------------------\r\n'10/20/2021 10:36:58 AM' - Tip: The current monitor(s) setup is not at 100% scale!\nFor best recording and execution experience please set all monitor scaling to 100%.\r\n------------------------------------------------------------\r\n------------------------------------------------------------\r\n'10/20/2021 10:37:01 AM' - Using 'Chrome' version '94.0.4606.81' as default browser. \r\n'10/20/2021 10:37:01 AM' - Emulating device with resolution of 411x823 and user agent 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36'. \r\n'10/20/2021 10:37:01 AM' - Using 'https://aims3ts.aimsasp.net/' as base url.\r\n'10/20/2021 10:37:02 AM' - 'Pass' : 1. Navigate to : '/'\r\n'10/20/2021 10:37:04 AM' - 'Pass' : 2. Enter text 'firebird' in 'Password'\r\n'10/20/2021 10:37:05 AM' - 'Pass' : 3. Click 'SignIn'\r\n'10/20/2021 10:37:06 AM' - 'Pass' : 4. Wait for Exists 'AccountButton'\r\n------------------------------------------------------------\r\n'10/20/2021 10:37:06 AM' - Overall Result: Pass\r\n'10/20/2021 10:37:06 AM' - Duration: [0 min: 5 sec: 600 msec]\r\n------------------------------------------------------------\r\n'10/20/2021 10:37:08 AM' - Test completed!\r\n",
+          "ScreenRecordingResultPath": null,
+          "ScreenRecordingResultError": null,
+          "ScreenRecordingResultCodec": null,
+          "ScreenRecordingResultSize": 0,
+          "FailureException": null,
+          "Result": 0,
+          "TestId": "19689407-021b-4651-96b2-5c71b80cea5f",
+          "TestName": "Login to TS Site",
+          "IsRerun": false,
+          "TestPath": "Login to TS Site.tstest",
+          "TestOwner": "",
+          "TestDescription": "",
+          "ProjectPath": "",
+          "StepResults": [
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "Login to TS Site",
+                "TestPath": "Login to TS Site.tstest",
+                "TestId": "19689407-021b-4651-96b2-5c71b80cea5f",
+                "TestStepIndex": 0,
+                "StepDescription": "Navigate to : '/'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:02 AM"
+                  }
+                },
+                "Order": 1,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1347723234,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "Login to TS Site",
+                "TestPath": "Login to TS Site.tstest",
+                "TestId": "19689407-021b-4651-96b2-5c71b80cea5f",
+                "TestStepIndex": 1,
+                "StepDescription": "Enter text 'firebird' in 'Password'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:04 AM"
+                  }
+                },
+                "Order": 2,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498604,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "Login to TS Site",
+                "TestPath": "Login to TS Site.tstest",
+                "TestId": "19689407-021b-4651-96b2-5c71b80cea5f",
+                "TestStepIndex": 2,
+                "StepDescription": "Click 'SignIn'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:05 AM"
+                  }
+                },
+                "Order": 3,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960562,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "Login to TS Site",
+                "TestPath": "Login to TS Site.tstest",
+                "TestId": "19689407-021b-4651-96b2-5c71b80cea5f",
+                "TestStepIndex": 3,
+                "StepDescription": "Wait for Exists 'AccountButton'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:06 AM"
+                  }
+                },
+                "Order": 4,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -898084787,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            }
+          ],
+          "NotRunStepDescriptions": [],
+          "TotalPassedSteps": 4,
+          "ExecutingTestStepCount": 4,
+          "TotalNumberOfNotRunSteps": 0,
+          "IsDataDrivenResult": false,
+          "DataIterationResults": [],
+          "EndTime": "2021-10-20T14:37:06.7018625Z",
+          "StartTime": "2021-10-20T14:37:01.1008961Z",
+          "ProfilerResultsPath": null,
+          "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+          "CommitedBy": null,
+          "HasWarnings": false
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+        "__value": {
+          "Browser": 7,
+          "ExeType": 5,
+          "SeparatorLineCharCount": 60,
+          "Message": "Overall Result: Pass\r\n------------------------------------------------------------\r\n'10/20/2021 10:37:08 AM' - Executing test: 'WO Navigation', path: 'WO Navigation.tstest.'\r\n'10/20/2021 10:37:08 AM' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2021.2.809.0'.\r\n'10/20/2021 10:37:08 AM' - Starting execution....\r\n------------------------------------------------------------\r\n'10/20/2021 10:37:08 AM' - Tip: The current monitor(s) setup is not at 100% scale!\nFor best recording and execution experience please set all monitor scaling to 100%.\r\n------------------------------------------------------------\r\n------------------------------------------------------------\r\n'10/20/2021 10:37:11 AM' - Using 'Chrome' version '94.0.4606.81' as default browser. \r\n'10/20/2021 10:37:11 AM' - Emulating device with resolution of 411x823 and user agent 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36'. \r\n'10/20/2021 10:37:11 AM' - Using 'https://aims3ts.aimsasp.net/' as base url.\r\n'10/20/2021 10:37:11 AM' - 'Pass' : 1. Navigate to : '/'\r\n'10/20/2021 10:37:14 AM' - 'Pass' : 2. Enter text 'firebird' in 'Password'\r\n'10/20/2021 10:37:14 AM' - 'Pass' : 3. Click 'SignIn'\r\n'10/20/2021 10:37:16 AM' - 'Pass' : 4. Click 'WorkOrderSpan'\r\n'10/20/2021 10:37:19 AM' - 'Pass' : 5. Enter text '8188' in 'Number'\r\n'10/20/2021 10:37:20 AM' - 'Pass' : 6. Keyboard (KeyPress) - Tab (1 times) on 'BodyTag'\r\n'10/20/2021 10:37:20 AM' - 'Pass' : 7. Verify input 'Number' value 'Exact' '8188'.\r\n'10/20/2021 10:37:21 AM' - 'Pass' : 8. Click 'Next WO'\r\n'10/20/2021 10:37:21 AM' - 'Pass' : 9. Verify input 'Number' value 'NotContain' '8188'.\r\n------------------------------------------------------------\r\n'10/20/2021 10:37:21 AM' - Overall Result: Pass\r\n'10/20/2021 10:37:21 AM' - Duration: [0 min: 10 sec: 676 msec]\r\n------------------------------------------------------------\r\n'10/20/2021 10:37:23 AM' - Test completed!\r\n",
+          "ScreenRecordingResultPath": null,
+          "ScreenRecordingResultError": null,
+          "ScreenRecordingResultCodec": null,
+          "ScreenRecordingResultSize": 0,
+          "FailureException": null,
+          "Result": 0,
+          "TestId": "d72f204c-fa62-476d-83da-6dc98a8853cc",
+          "TestName": "WO Navigation",
+          "IsRerun": false,
+          "TestPath": "WO Navigation.tstest",
+          "TestOwner": "",
+          "TestDescription": "",
+          "ProjectPath": "",
+          "StepResults": [
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WO Navigation",
+                "TestPath": "WO Navigation.tstest",
+                "TestId": "d72f204c-fa62-476d-83da-6dc98a8853cc",
+                "TestStepIndex": 0,
+                "StepDescription": "Navigate to : '/'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:11 AM"
+                  }
+                },
+                "Order": 1,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1347723234,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WO Navigation",
+                "TestPath": "WO Navigation.tstest",
+                "TestId": "d72f204c-fa62-476d-83da-6dc98a8853cc",
+                "TestStepIndex": 1,
+                "StepDescription": "Enter text 'firebird' in 'Password'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:14 AM"
+                  }
+                },
+                "Order": 2,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498604,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WO Navigation",
+                "TestPath": "WO Navigation.tstest",
+                "TestId": "d72f204c-fa62-476d-83da-6dc98a8853cc",
+                "TestStepIndex": 2,
+                "StepDescription": "Click 'SignIn'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:14 AM"
+                  }
+                },
+                "Order": 3,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960562,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WO Navigation",
+                "TestPath": "WO Navigation.tstest",
+                "TestId": "d72f204c-fa62-476d-83da-6dc98a8853cc",
+                "TestStepIndex": 3,
+                "StepDescription": "Click 'WorkOrderSpan'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:16 AM"
+                  }
+                },
+                "Order": 4,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960563,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WO Navigation",
+                "TestPath": "WO Navigation.tstest",
+                "TestId": "d72f204c-fa62-476d-83da-6dc98a8853cc",
+                "TestStepIndex": 4,
+                "StepDescription": "Enter text '8188' in 'Number'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:19 AM"
+                  }
+                },
+                "Order": 5,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498607,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WO Navigation",
+                "TestPath": "WO Navigation.tstest",
+                "TestId": "d72f204c-fa62-476d-83da-6dc98a8853cc",
+                "TestStepIndex": 5,
+                "StepDescription": "Keyboard (KeyPress) - Tab (1 times) on 'BodyTag'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:20 AM"
+                  }
+                },
+                "Order": 6,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -1170792668,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WO Navigation",
+                "TestPath": "WO Navigation.tstest",
+                "TestId": "d72f204c-fa62-476d-83da-6dc98a8853cc",
+                "TestStepIndex": 6,
+                "StepDescription": "Verify input 'Number' value 'Exact' '8188'.",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:20 AM"
+                  }
+                },
+                "Order": 7,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 950034502,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WO Navigation",
+                "TestPath": "WO Navigation.tstest",
+                "TestId": "d72f204c-fa62-476d-83da-6dc98a8853cc",
+                "TestStepIndex": 7,
+                "StepDescription": "Click 'Next WO'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:21 AM"
+                  }
+                },
+                "Order": 8,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960567,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WO Navigation",
+                "TestPath": "WO Navigation.tstest",
+                "TestId": "d72f204c-fa62-476d-83da-6dc98a8853cc",
+                "TestStepIndex": 8,
+                "StepDescription": "Verify input 'Number' value 'NotContain' '8188'.",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:21 AM"
+                  }
+                },
+                "Order": 9,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 950034504,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            }
+          ],
+          "NotRunStepDescriptions": [],
+          "TotalPassedSteps": 9,
+          "ExecutingTestStepCount": 9,
+          "TotalNumberOfNotRunSteps": 0,
+          "IsDataDrivenResult": false,
+          "DataIterationResults": [],
+          "EndTime": "2021-10-20T14:37:21.6732874Z",
+          "StartTime": "2021-10-20T14:37:10.9966132Z",
+          "ProfilerResultsPath": null,
+          "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+          "CommitedBy": null,
+          "HasWarnings": false
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+        "__value": {
+          "Browser": 7,
+          "ExeType": 5,
+          "SeparatorLineCharCount": 60,
+          "Message": "Overall Result: Fail\r\n------------------------------------------------------------\r\n'10/20/2021 10:37:23 AM' - Executing test: 'WO Test SD is populated', path: 'WO Test SD is populated.tstest.'\r\n'10/20/2021 10:37:23 AM' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2021.2.809.0'.\r\n'10/20/2021 10:37:23 AM' - Starting execution....\r\n------------------------------------------------------------\r\n'10/20/2021 10:37:23 AM' - Tip: The current monitor(s) setup is not at 100% scale!\nFor best recording and execution experience please set all monitor scaling to 100%.\r\n------------------------------------------------------------\r\n------------------------------------------------------------\r\n'10/20/2021 10:37:26 AM' - Enabling Html Popup Tracker. Test expecting Popups.\r\n'10/20/2021 10:37:26 AM' - Using 'Chrome' version '94.0.4606.81' as default browser. \r\n'10/20/2021 10:37:26 AM' - Emulating device with resolution of 411x823 and user agent 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36'. \r\n'10/20/2021 10:37:26 AM' - Using 'https://aims3ts.aimsasp.net/' as base url.\r\n'10/20/2021 10:37:31 AM' - 'Pass' : 1. Execute test 'Login to TS Site'\r\n\r\n>>> Test-as-Step 'Login to TS Site.tstest' log starts:\r\n\r\nOverall Result: Pass\r\n------------------------------------------------------------\r\n'10/20/2021 10:37:26 AM' - Enabling Html Popup Tracker. Test expecting Popups.\r\n'10/20/2021 10:37:26 AM' - Using 'Chrome' version '94.0.4606.81' as default browser. \r\n'10/20/2021 10:37:26 AM' - Emulating device with resolution of 411x823 and user agent 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36'. \r\n'10/20/2021 10:37:26 AM' - Using 'https://aims3ts.aimsasp.net/' as base url.\r\n'10/20/2021 10:37:27 AM' - 'Pass' : 1. Navigate to : '/'\r\n'10/20/2021 10:37:29 AM' - 'Pass' : 2. Enter text 'firebird' in 'Password'\r\n'10/20/2021 10:37:29 AM' - 'Pass' : 3. Click 'SignIn'\r\n'10/20/2021 10:37:31 AM' - 'Pass' : 4. Wait for Exists 'AccountButton'\r\n------------------------------------------------------------\r\n'10/20/2021 10:37:31 AM' - Overall Result: Pass\r\n'10/20/2021 10:37:31 AM' - Duration: [0 min: 5 sec: 47 msec]\r\n------------------------------------------------------------\r\n\r\n<<< Test-as-Step 'Login to TS Site.tstest' log ends.\r\n\r\n'10/20/2021 10:37:32 AM' - 'Pass' : 2. Click 'WorkOrderSpan'\r\n'10/20/2021 10:37:34 AM' - 'Pass' : 3. Keyboard (KeyPress) - Tab (1 times) on 'Text'\r\n'10/20/2021 10:37:34 AM' - 'Pass' : 4. Verify 'InnerText' 'RegEx' '(.|\\s)*\\S(.|\\s)*' on 'ServiceDepartmentInput'\r\n'10/20/2021 10:37:52 AM' - 'Fail' : 5. Verify input 'CostCenterInput' value 'RegEx' '(.|\\s)*\\S(.|\\s)*'.\r\n------------------------------------------------------------\r\nFailure Information: \r\n~~~~~~~~~~~~~~~\r\nUnable to locate element by Find Expression!\nAttempting to find [Html] element using \r\nFind logic \r\n (Html): [class 'Exact' p-autocomplete-input p-inputtext p-component ng-tns-c25-49 ng-star-inserted p-autocomplete-dd-input p-disabled] AND [tagname 'Exact' input]\r\n\r\nUnable to locate element. Search failed!\r\n\r\n\r\nGetting element image for step Verify input 'CostCenterInput' value 'RegEx' '(.|\\s)*\\S(.|\\s)*'. ...\r\nUnable to locate element by image.\r\nElement was found by backup search only! We recommend editing the element to correct the primary find expression. \nBackup search: 'xpath=/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/div[1]/p-tabview[1]/div[1]/div[1]/p-tabpanel[1]/div[1]/app-work-order-dispatch[1]/p-panel[1]/div[1]/div[2]/div[1]/form[1]/app-aims-dropdown[1]/p-autocomplete[1]/span[1]/input[1]' \n\r\nLearn more about finding elements here:\r\nhttp://docs.telerik.com/teststudio/troubleshooting-guide/test-execution-problems-tg/unable-to-locate-element\r\n------------------------------------------------------------\r\n'10/20/2021 10:37:52 AM' - Detected a failure. Step is marked 'ContinueOnFailure=False' aborting test execution.\r\n------------------------------------------------------------\r\n'10/20/2021 10:37:52 AM' - Overall Result: Fail\r\n'10/20/2021 10:37:52 AM' - Duration: [0 min: 26 sec: 403 msec]\r\n------------------------------------------------------------\r\n'10/20/2021 10:37:53 AM' - Test completed!\r\n",
+          "ScreenRecordingResultPath": null,
+          "ScreenRecordingResultError": null,
+          "ScreenRecordingResultCodec": null,
+          "ScreenRecordingResultSize": 0,
+          "FailureException": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.ElementFindException",
+  "__value": {
+    "message": "Unable to locate element by Find Expression!\nAttempting to find [Html] element using \r\nFind logic \r\n (Html): [class 'Exact' p-autocomplete-input p-inputtext p-component ng-tns-c25-49 ng-star-inserted p-autocomplete-dd-input p-disabled] AND [tagname 'Exact' input]\r\n\r\nUnable to locate element. Search failed!\r\n\r\n\r\nGetting element image for step Verify input 'CostCenterInput' value 'RegEx' '(.|\\s)*\\S(.|\\s)*'. ...\r\nUnable to locate element by image.\r\nElement was found by backup search only! We recommend editing the element to correct the primary find expression. \nBackup search: 'xpath=/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/div[1]/p-tabview[1]/div[1]/div[1]/p-tabpanel[1]/div[1]/app-work-order-dispatch[1]/p-panel[1]/div[1]/div[2]/div[1]/form[1]/app-aims-dropdown[1]/p-autocomplete[1]/span[1]/input[1]' \n\r\nLearn more about finding elements here:\r\nhttp://docs.telerik.com/teststudio/troubleshooting-guide/test-execution-problems-tg/unable-to-locate-element",
+    "FindExpression": {
+      "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+      "__value": {
+        "uniqueKey": "XX1Yb8LtX2kj1MIOqYpjOyRAYss=",
+        "NodeKind": 4,
+        "TechnologyType": 1,
+        "Name": "CostCenterInput",
+        "FindExpressions": [
+          {
+            "Key": 1,
+            "Value": {
+              "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+              "__value": {
+                "Clauses": [
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "class=p-autocomplete-input p-inputtext p-component ng-tns-c25-49 ng-star-inserted p-autocomplete-dd-input p-disabled"
+                    }
+                  },
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "tagname=input"
+                    }
+                  }
+                ],
+                "Constraints": [],
+                "ChainStops": []
+              }
+            }
+          }
+        ],
+        "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/div[1]/p-tabview[1]/div[1]/div[1]/p-tabpanel[1]/div[1]/app-work-order-dispatch[1]/p-panel[1]/div[1]/div[2]/div[1]/form[1]/app-aims-dropdown[1]/p-autocomplete[1]/span[1]/input[1]",
+        "ImageSearchClauses": [
+          {
+            "__type": "ArtOfTest.Common.ImageSearchClause",
+            "__value": {
+              "Resolution": "1920, 1200",
+              "BroweserType": 7,
+              "Image": "F8C499D0C3725EB7A266A3AAD3EDAB26518BF2A0A9049DD422DCCF3C338CFCE3",
+              "Index": 0,
+              "MatchThreshold": 90,
+              "OsVersion": "10.0.19042.0",
+              "ScreenScale": 1.0,
+              "ScrollOnImageSearch": null
+            }
+          }
+        ],
+        "DataBindingExpressions": {}
+      }
+    },
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "The Whole Nine Yards 132792142742909055_files\\WO Test SD is populated_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "The Whole Nine Yards 132792142742909055_files\\WO Test SD is populated_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:52 AM"
+            }
+          },
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "XX1Yb8LtX2kj1MIOqYpjOyRAYss=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "CostCenterInput",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "class=p-autocomplete-input p-inputtext p-component ng-tns-c25-49 ng-star-inserted p-autocomplete-dd-input p-disabled"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/div[1]/p-tabview[1]/div[1]/div[1]/p-tabpanel[1]/div[1]/app-work-order-dispatch[1]/p-panel[1]/div[1]/div[2]/div[1]/form[1]/app-aims-dropdown[1]/p-autocomplete[1]/span[1]/input[1]",
+              "ImageSearchClauses": [
+                {
+                  "__type": "ArtOfTest.Common.ImageSearchClause",
+                  "__value": {
+                    "Resolution": "1920, 1200",
+                    "BroweserType": 7,
+                    "Image": "F8C499D0C3725EB7A266A3AAD3EDAB26518BF2A0A9049DD422DCCF3C338CFCE3",
+                    "Index": 0,
+                    "MatchThreshold": 90,
+                    "OsVersion": "10.0.19042.0",
+                    "ScreenScale": 1.0,
+                    "ScrollOnImageSearch": null
+                  }
+                }
+              ],
+              "DataBindingExpressions": {}
+            }
+          }
+        }
+      }
+    }
+  }
+},
+          "Result": 1,
+          "TestId": "f2066255-084b-4c6c-ad00-a98af639ba07",
+          "TestName": "WO Test SD is populated",
+          "IsRerun": false,
+          "TestPath": "WO Test SD is populated.tstest",
+          "TestOwner": "",
+          "TestDescription": "",
+          "ProjectPath": "",
+          "StepResults": [
+            {
+              "__type": "ArtOfTest.WebAii.Design.Execution.TestAsStepResult",
+              "__value": {
+                "TestResult": {
+                  "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+                  "__value": {
+                    "Browser": 0,
+                    "ExeType": 5,
+                    "SeparatorLineCharCount": 60,
+                    "Message": "Overall Result: Pass\r\n------------------------------------------------------------\r\n'10/20/2021 10:37:26 AM' - Enabling Html Popup Tracker. Test expecting Popups.\r\n'10/20/2021 10:37:26 AM' - Using 'Chrome' version '94.0.4606.81' as default browser. \r\n'10/20/2021 10:37:26 AM' - Emulating device with resolution of 411x823 and user agent 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36'. \r\n'10/20/2021 10:37:26 AM' - Using 'https://aims3ts.aimsasp.net/' as base url.\r\n'10/20/2021 10:37:27 AM' - 'Pass' : 1. Navigate to : '/'\r\n'10/20/2021 10:37:29 AM' - 'Pass' : 2. Enter text 'firebird' in 'Password'\r\n'10/20/2021 10:37:29 AM' - 'Pass' : 3. Click 'SignIn'\r\n'10/20/2021 10:37:31 AM' - 'Pass' : 4. Wait for Exists 'AccountButton'\r\n------------------------------------------------------------\r\n'10/20/2021 10:37:31 AM' - Overall Result: Pass\r\n'10/20/2021 10:37:31 AM' - Duration: [0 min: 5 sec: 47 msec]\r\n------------------------------------------------------------\r\n",
+                    "ScreenRecordingResultPath": null,
+                    "ScreenRecordingResultError": null,
+                    "ScreenRecordingResultCodec": null,
+                    "ScreenRecordingResultSize": 0,
+                    "FailureException": null,
+                    "Result": 0,
+                    "TestId": "19689407-021b-4651-96b2-5c71b80cea5f",
+                    "TestName": "Login to TS Site",
+                    "IsRerun": false,
+                    "TestPath": "Login to TS Site.tstest",
+                    "TestOwner": "",
+                    "TestDescription": "",
+                    "ProjectPath": "",
+                    "StepResults": [
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "Login to TS Site",
+                          "TestPath": "Login to TS Site.tstest",
+                          "TestId": "19689407-021b-4651-96b2-5c71b80cea5f",
+                          "TestStepIndex": 0,
+                          "StepDescription": "Navigate to : '/'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": {
+                            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                            "__value": {
+                              "Mode": 1,
+                              "DomFilePath": null,
+                              "ImageFilePath": null,
+                              "ExpectedImageFilePath": null,
+                              "TechnologyType": 1,
+                              "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:27 AM"
+                            }
+                          },
+                          "Order": 1,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 1347723234,
+                          "IsManual": false,
+                          "WasStepEnabled": false,
+                          "Warnings": null
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "Login to TS Site",
+                          "TestPath": "Login to TS Site.tstest",
+                          "TestId": "19689407-021b-4651-96b2-5c71b80cea5f",
+                          "TestStepIndex": 1,
+                          "StepDescription": "Enter text 'firebird' in 'Password'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": {
+                            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                            "__value": {
+                              "Mode": 1,
+                              "DomFilePath": null,
+                              "ImageFilePath": null,
+                              "ExpectedImageFilePath": null,
+                              "TechnologyType": 1,
+                              "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:29 AM"
+                            }
+                          },
+                          "Order": 2,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 1106498604,
+                          "IsManual": false,
+                          "WasStepEnabled": false,
+                          "Warnings": null
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "Login to TS Site",
+                          "TestPath": "Login to TS Site.tstest",
+                          "TestId": "19689407-021b-4651-96b2-5c71b80cea5f",
+                          "TestStepIndex": 2,
+                          "StepDescription": "Click 'SignIn'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": {
+                            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                            "__value": {
+                              "Mode": 1,
+                              "DomFilePath": null,
+                              "ImageFilePath": null,
+                              "ExpectedImageFilePath": null,
+                              "TechnologyType": 1,
+                              "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:29 AM"
+                            }
+                          },
+                          "Order": 3,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 2087960562,
+                          "IsManual": false,
+                          "WasStepEnabled": false,
+                          "Warnings": null
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "Login to TS Site",
+                          "TestPath": "Login to TS Site.tstest",
+                          "TestId": "19689407-021b-4651-96b2-5c71b80cea5f",
+                          "TestStepIndex": 3,
+                          "StepDescription": "Wait for Exists 'AccountButton'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": {
+                            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                            "__value": {
+                              "Mode": 1,
+                              "DomFilePath": null,
+                              "ImageFilePath": null,
+                              "ExpectedImageFilePath": null,
+                              "TechnologyType": 1,
+                              "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:31 AM"
+                            }
+                          },
+                          "Order": 4,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": -898084787,
+                          "IsManual": false,
+                          "WasStepEnabled": false,
+                          "Warnings": null
+                        }
+                      }
+                    ],
+                    "NotRunStepDescriptions": [],
+                    "TotalPassedSteps": 4,
+                    "ExecutingTestStepCount": 4,
+                    "TotalNumberOfNotRunSteps": 0,
+                    "IsDataDrivenResult": false,
+                    "DataIterationResults": [],
+                    "EndTime": "2021-10-20T14:37:31.2573907Z",
+                    "StartTime": "2021-10-20T14:37:26.2101448Z",
+                    "ProfilerResultsPath": null,
+                    "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+                    "CommitedBy": null,
+                    "HasWarnings": false
+                  }
+                },
+                "ResultType": 0,
+                "Exception": null,
+                "TestName": "WO Test SD is populated",
+                "TestPath": "WO Test SD is populated.tstest",
+                "TestId": "f2066255-084b-4c6c-ad00-a98af639ba07",
+                "TestStepIndex": 0,
+                "StepDescription": "Execute test 'Login to TS Site'",
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:31 AM"
+                  }
+                },
+                "Order": 1,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -832664899,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WO Test SD is populated",
+                "TestPath": "WO Test SD is populated.tstest",
+                "TestId": "f2066255-084b-4c6c-ad00-a98af639ba07",
+                "TestStepIndex": 1,
+                "StepDescription": "Click 'WorkOrderSpan'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:32 AM"
+                  }
+                },
+                "Order": 2,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960561,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WO Test SD is populated",
+                "TestPath": "WO Test SD is populated.tstest",
+                "TestId": "f2066255-084b-4c6c-ad00-a98af639ba07",
+                "TestStepIndex": 2,
+                "StepDescription": "Keyboard (KeyPress) - Tab (1 times) on 'Text'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:34 AM"
+                  }
+                },
+                "Order": 3,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -1170792671,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WO Test SD is populated",
+                "TestPath": "WO Test SD is populated.tstest",
+                "TestId": "f2066255-084b-4c6c-ad00-a98af639ba07",
+                "TestStepIndex": 3,
+                "StepDescription": "Verify 'InnerText' 'RegEx' '(.|\\s)*\\S(.|\\s)*' on 'ServiceDepartmentInput'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 1,
+                    "DomFilePath": null,
+                    "ImageFilePath": null,
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:34 AM"
+                  }
+                },
+                "Order": 4,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -1313506170,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WO Test SD is populated",
+                "TestPath": "WO Test SD is populated.tstest",
+                "TestId": "f2066255-084b-4c6c-ad00-a98af639ba07",
+                "TestStepIndex": 4,
+                "StepDescription": "Verify input 'CostCenterInput' value 'RegEx' '(.|\\s)*\\S(.|\\s)*'.",
+                "Exception": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.ElementFindException",
+  "__value": {
+    "message": "Unable to locate element by Find Expression!\nAttempting to find [Html] element using \r\nFind logic \r\n (Html): [class 'Exact' p-autocomplete-input p-inputtext p-component ng-tns-c25-49 ng-star-inserted p-autocomplete-dd-input p-disabled] AND [tagname 'Exact' input]\r\n\r\nUnable to locate element. Search failed!\r\n\r\n\r\nGetting element image for step Verify input 'CostCenterInput' value 'RegEx' '(.|\\s)*\\S(.|\\s)*'. ...\r\nUnable to locate element by image.\r\nElement was found by backup search only! We recommend editing the element to correct the primary find expression. \nBackup search: 'xpath=/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/div[1]/p-tabview[1]/div[1]/div[1]/p-tabpanel[1]/div[1]/app-work-order-dispatch[1]/p-panel[1]/div[1]/div[2]/div[1]/form[1]/app-aims-dropdown[1]/p-autocomplete[1]/span[1]/input[1]' \n\r\nLearn more about finding elements here:\r\nhttp://docs.telerik.com/teststudio/troubleshooting-guide/test-execution-problems-tg/unable-to-locate-element",
+    "FindExpression": {
+      "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+      "__value": {
+        "uniqueKey": "XX1Yb8LtX2kj1MIOqYpjOyRAYss=",
+        "NodeKind": 4,
+        "TechnologyType": 1,
+        "Name": "CostCenterInput",
+        "FindExpressions": [
+          {
+            "Key": 1,
+            "Value": {
+              "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+              "__value": {
+                "Clauses": [
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "class=p-autocomplete-input p-inputtext p-component ng-tns-c25-49 ng-star-inserted p-autocomplete-dd-input p-disabled"
+                    }
+                  },
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "tagname=input"
+                    }
+                  }
+                ],
+                "Constraints": [],
+                "ChainStops": []
+              }
+            }
+          }
+        ],
+        "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/div[1]/p-tabview[1]/div[1]/div[1]/p-tabpanel[1]/div[1]/app-work-order-dispatch[1]/p-panel[1]/div[1]/div[2]/div[1]/form[1]/app-aims-dropdown[1]/p-autocomplete[1]/span[1]/input[1]",
+        "ImageSearchClauses": [
+          {
+            "__type": "ArtOfTest.Common.ImageSearchClause",
+            "__value": {
+              "Resolution": "1920, 1200",
+              "BroweserType": 7,
+              "Image": "F8C499D0C3725EB7A266A3AAD3EDAB26518BF2A0A9049DD422DCCF3C338CFCE3",
+              "Index": 0,
+              "MatchThreshold": 90,
+              "OsVersion": "10.0.19042.0",
+              "ScreenScale": 1.0,
+              "ScrollOnImageSearch": null
+            }
+          }
+        ],
+        "DataBindingExpressions": {}
+      }
+    },
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "The Whole Nine Yards 132792142742909055_files\\WO Test SD is populated_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "The Whole Nine Yards 132792142742909055_files\\WO Test SD is populated_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:52 AM"
+            }
+          },
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "XX1Yb8LtX2kj1MIOqYpjOyRAYss=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "CostCenterInput",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "class=p-autocomplete-input p-inputtext p-component ng-tns-c25-49 ng-star-inserted p-autocomplete-dd-input p-disabled"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/div[1]/p-tabview[1]/div[1]/div[1]/p-tabpanel[1]/div[1]/app-work-order-dispatch[1]/p-panel[1]/div[1]/div[2]/div[1]/form[1]/app-aims-dropdown[1]/p-autocomplete[1]/span[1]/input[1]",
+              "ImageSearchClauses": [
+                {
+                  "__type": "ArtOfTest.Common.ImageSearchClause",
+                  "__value": {
+                    "Resolution": "1920, 1200",
+                    "BroweserType": 7,
+                    "Image": "F8C499D0C3725EB7A266A3AAD3EDAB26518BF2A0A9049DD422DCCF3C338CFCE3",
+                    "Index": 0,
+                    "MatchThreshold": 90,
+                    "OsVersion": "10.0.19042.0",
+                    "ScreenScale": 1.0,
+                    "ScrollOnImageSearch": null
+                  }
+                }
+              ],
+              "DataBindingExpressions": {}
+            }
+          }
+        }
+      }
+    }
+  }
+},
+                "ResultType": 1,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 2,
+                    "DomFilePath": "The Whole Nine Yards 132792142742909055_files\\WO Test SD is populated_0_DomTreeOnFailure.txt",
+                    "ImageFilePath": "The Whole Nine Yards 132792142742909055_files\\WO Test SD is populated_0_ImageOnFailure.png",
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 10:37:52 AM"
+                  }
+                },
+                "Order": 5,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 950034500,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            }
+          ],
+          "NotRunStepDescriptions": [],
+          "TotalPassedSteps": 4,
+          "ExecutingTestStepCount": 5,
+          "TotalNumberOfNotRunSteps": 0,
+          "IsDataDrivenResult": false,
+          "DataIterationResults": [],
+          "EndTime": "2021-10-20T14:37:52.5343728Z",
+          "StartTime": "2021-10-20T14:37:26.1313559Z",
+          "ProfilerResultsPath": null,
+          "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+          "CommitedBy": null,
+          "HasWarnings": false
+        }
+      }
+    ],
+    "FileName": "The Whole Nine Yards 132792142742909055",
+    "Machine": {
+      "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.Machine",
+      "__value": {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "NetworkName": "PDS-LT-01",
+        "OperatingSystem": "Windows 10",
+        "InstalledBrowsers": [
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 1,
+              "Version": "9.11.19041.0",
+              "IsConfigured": false
+            }
+          },
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 2,
+              "Version": "93.0 (x64 en-US)",
+              "IsConfigured": true
+            }
+          },
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 7,
+              "Version": "94.0.4606.81",
+              "IsConfigured": true
+            }
+          },
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 10,
+              "Version": "94.0.992.50",
+              "IsConfigured": true
+            }
+          }
+        ],
+        "Status": 0,
+        "ServiceUri": null,
+        "DBState": 0,
+        "UserName": "TSPrague"
+      }
+    },
+    "Messages": null,
+    "RunId": "6a03f282-6d27-4c6e-91e5-4b21b16ccc7f",
+    "Comment": null,
+    "TestListId": "0772f3fc-da3a-4492-a8d0-c9a92f370bc0",
+    "IsManual": false
+  }
+}

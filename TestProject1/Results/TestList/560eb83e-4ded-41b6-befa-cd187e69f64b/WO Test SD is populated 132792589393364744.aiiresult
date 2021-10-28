@@ -1,0 +1,757 @@
+﻿{
+  "Id": null,
+  "Data": {
+    "__type": "ArtOfTest.WebAii.Design.Execution.RunResult",
+    "__value": {
+      "IsComplete": true,
+      "Name": "WO Test SD is populated 132792589393364744",
+      "StartTime": "2021-10-21T03:02:19.3524321Z",
+      "EndTime": "2021-10-21T03:02:43.0883332Z",
+      "Id": "f20e88ea-5afb-4882-a341-bdf7fd7b5ebf",
+      "PassedResult": false,
+      "IsRerun": false,
+      "HasWarnings": false,
+      "PassedCount": 0,
+      "FailedCount": 1,
+      "NotRunCount": 0,
+      "DispatchGroupId": "560eb83e-4ded-41b6-befa-cd187e69f64b",
+      "DataCollectors": {},
+      "TestResults": [
+        {
+          "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+          "__value": {
+            "Browser": 7,
+            "ExeType": 5,
+            "SeparatorLineCharCount": 60,
+            "Message": "Overall Result: Fail\r\n------------------------------------------------------------\r\n'10/20/2021 11:02:19 PM' - Executing test: 'WO Test SD is populated', path: 'WO Test SD is populated.tstest.'\r\n'10/20/2021 11:02:19 PM' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2021.2.809.0'.\r\n'10/20/2021 11:02:19 PM' - Starting execution....\r\n------------------------------------------------------------\r\n'10/20/2021 11:02:19 PM' - Tip: The current monitor(s) setup is not at 100% scale!\nFor best recording and execution experience please set all monitor scaling to 100%.\r\n------------------------------------------------------------\r\n------------------------------------------------------------\r\n'10/20/2021 11:02:22 PM' - Enabling Html Popup Tracker. Test expecting Popups.\r\n'10/20/2021 11:02:22 PM' - Using 'Chrome' version '94.0.4606.81' as default browser. \r\n'10/20/2021 11:02:22 PM' - Emulating device with resolution of 411x823 and user agent 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36'. \r\n'10/20/2021 11:02:22 PM' - Using 'https://aims3ts.aimsasp.net/' as base url.\r\n'10/20/2021 11:02:41 PM' - 'Fail' : 1. Execute test 'Login to TS Site'\r\n\r\n>>> Test-as-Step 'Login to TS Site.tstest' log starts:\r\n\r\nOverall Result: Fail\r\n------------------------------------------------------------\r\n'10/20/2021 11:02:22 PM' - Enabling Html Popup Tracker. Test expecting Popups.\r\n'10/20/2021 11:02:22 PM' - Using 'Chrome' version '94.0.4606.81' as default browser. \r\n'10/20/2021 11:02:22 PM' - Using 'https://aims3ts.aimsasp.net/' as base url.\r\n'10/20/2021 11:02:23 PM' - 'Pass' : 1. Navigate to : '/'\r\n'10/20/2021 11:02:41 PM' - 'Fail' : 2. Desktop command: Drag & Drop Text to Window Target\r\n------------------------------------------------------------\r\nFailure Information: \r\n~~~~~~~~~~~~~~~\r\nUnable to locate 'target' element. Details: Attempting to find [Html] element using \r\nFind logic \r\n (Html): [class 'Exact' ng-pristine ng-valid p-inputtext p-component p-filled ng-touched] AND [tagname 'Exact' input]\r\n\r\nUnable to locate element. Search failed!\r\n\r\n\r\nGetting element image for step Desktop command: Drag & Drop Text to Window Target ...\r\nUnable to locate element by image.\r\nElement was found by backup search only! We recommend editing the element to correct the primary find expression. \nBackup search: 'xpath=/html[1]/body[1]/app-root[1]/app-login-page[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]' \n\r\nLearn more about finding elements here:\r\nhttp://docs.telerik.com/teststudio/troubleshooting-guide/test-execution-problems-tg/unable-to-locate-element\r\n------------------------------------------------------------\r\n'10/20/2021 11:02:41 PM' - Detected a failure. Step is marked 'ContinueOnFailure=False' aborting test execution.\r\n------------------------------------------------------------\r\n'10/20/2021 11:02:41 PM' - Overall Result: Fail\r\n'10/20/2021 11:02:41 PM' - Duration: [0 min: 18 sec: 646 msec]\r\n------------------------------------------------------------\r\n\r\n<<< Test-as-Step 'Login to TS Site.tstest' log ends.\r\n\r\n------------------------------------------------------------\r\n'10/20/2021 11:02:41 PM' - Detected a failure. Step is marked 'ContinueOnFailure=False' aborting test execution.\r\n------------------------------------------------------------\r\n'10/20/2021 11:02:41 PM' - Overall Result: Fail\r\n'10/20/2021 11:02:41 PM' - Duration: [0 min: 18 sec: 900 msec]\r\n------------------------------------------------------------\r\n'10/20/2021 11:02:42 PM' - Test completed!\r\n\r\n",
+            "ScreenRecordingResultPath": null,
+            "ScreenRecordingResultError": null,
+            "ScreenRecordingResultCodec": null,
+            "ScreenRecordingResultSize": 0,
+            "FailureException": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.ElementFindException",
+  "__value": {
+    "message": "Unable to locate 'target' element. Details: Attempting to find [Html] element using \r\nFind logic \r\n (Html): [class 'Exact' ng-pristine ng-valid p-inputtext p-component p-filled ng-touched] AND [tagname 'Exact' input]\r\n\r\nUnable to locate element. Search failed!\r\n\r\n\r\nGetting element image for step Desktop command: Drag & Drop Text to Window Target ...\r\nUnable to locate element by image.\r\nElement was found by backup search only! We recommend editing the element to correct the primary find expression. \nBackup search: 'xpath=/html[1]/body[1]/app-root[1]/app-login-page[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]' \n\r\nLearn more about finding elements here:\r\nhttp://docs.telerik.com/teststudio/troubleshooting-guide/test-execution-problems-tg/unable-to-locate-element",
+    "FindExpression": {
+      "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+      "__value": {
+        "uniqueKey": "I/tZml0RP5RmZJkFBK+hYNSFKDg=",
+        "NodeKind": 4,
+        "TechnologyType": 1,
+        "Name": "Text",
+        "FindExpressions": [
+          {
+            "Key": 1,
+            "Value": {
+              "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+              "__value": {
+                "Clauses": [
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "class=ng-pristine ng-valid p-inputtext p-component p-filled ng-touched"
+                    }
+                  },
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "tagname=input"
+                    }
+                  }
+                ],
+                "Constraints": [],
+                "ChainStops": []
+              }
+            }
+          }
+        ],
+        "BackupSearchClause": "/html[1]/body[1]/app-root[1]/app-login-page[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]",
+        "ImageSearchClauses": [
+          {
+            "__type": "ArtOfTest.Common.ImageSearchClause",
+            "__value": {
+              "Resolution": "1920, 1200",
+              "BroweserType": 2,
+              "Image": "0BC958A345F73005E4DE1BC5454E9D34D48407F32AA484CB55BB722D67165ADB",
+              "Index": 0,
+              "MatchThreshold": 90,
+              "OsVersion": "10.0.19042.0",
+              "ScreenScale": 1.0,
+              "ScrollOnImageSearch": null
+            }
+          }
+        ],
+        "DataBindingExpressions": {}
+      }
+    },
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "WO Test SD is populated 132792589393364744_files\\Login to TS Site_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "WO Test SD is populated 132792589393364744_files\\Login to TS Site_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 11:02:41 PM"
+            }
+          },
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "I/tZml0RP5RmZJkFBK+hYNSFKDg=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "Text",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "class=ng-pristine ng-valid p-inputtext p-component p-filled ng-touched"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/app-root[1]/app-login-page[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]",
+              "ImageSearchClauses": [
+                {
+                  "__type": "ArtOfTest.Common.ImageSearchClause",
+                  "__value": {
+                    "Resolution": "1920, 1200",
+                    "BroweserType": 2,
+                    "Image": "0BC958A345F73005E4DE1BC5454E9D34D48407F32AA484CB55BB722D67165ADB",
+                    "Index": 0,
+                    "MatchThreshold": 90,
+                    "OsVersion": "10.0.19042.0",
+                    "ScreenScale": 1.0,
+                    "ScrollOnImageSearch": null
+                  }
+                }
+              ],
+              "DataBindingExpressions": {}
+            }
+          }
+        }
+      }
+    }
+  }
+},
+            "Result": 1,
+            "TestId": "f2066255-084b-4c6c-ad00-a98af639ba07",
+            "TestName": "WO Test SD is populated",
+            "IsRerun": false,
+            "TestPath": "WO Test SD is populated.tstest",
+            "TestOwner": "",
+            "TestDescription": "",
+            "ProjectPath": "",
+            "StepResults": [
+              {
+                "__type": "ArtOfTest.WebAii.Design.Execution.TestAsStepResult",
+                "__value": {
+                  "TestResult": {
+                    "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+                    "__value": {
+                      "Browser": 0,
+                      "ExeType": 5,
+                      "SeparatorLineCharCount": 60,
+                      "Message": "Overall Result: Fail\r\n------------------------------------------------------------\r\n'10/20/2021 11:02:22 PM' - Enabling Html Popup Tracker. Test expecting Popups.\r\n'10/20/2021 11:02:22 PM' - Using 'Chrome' version '94.0.4606.81' as default browser. \r\n'10/20/2021 11:02:22 PM' - Using 'https://aims3ts.aimsasp.net/' as base url.\r\n'10/20/2021 11:02:23 PM' - 'Pass' : 1. Navigate to : '/'\r\n'10/20/2021 11:02:41 PM' - 'Fail' : 2. Desktop command: Drag & Drop Text to Window Target\r\n------------------------------------------------------------\r\nFailure Information: \r\n~~~~~~~~~~~~~~~\r\nUnable to locate 'target' element. Details: Attempting to find [Html] element using \r\nFind logic \r\n (Html): [class 'Exact' ng-pristine ng-valid p-inputtext p-component p-filled ng-touched] AND [tagname 'Exact' input]\r\n\r\nUnable to locate element. Search failed!\r\n\r\n\r\nGetting element image for step Desktop command: Drag & Drop Text to Window Target ...\r\nUnable to locate element by image.\r\nElement was found by backup search only! We recommend editing the element to correct the primary find expression. \nBackup search: 'xpath=/html[1]/body[1]/app-root[1]/app-login-page[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]' \n\r\nLearn more about finding elements here:\r\nhttp://docs.telerik.com/teststudio/troubleshooting-guide/test-execution-problems-tg/unable-to-locate-element\r\n------------------------------------------------------------\r\n'10/20/2021 11:02:41 PM' - Detected a failure. Step is marked 'ContinueOnFailure=False' aborting test execution.\r\n------------------------------------------------------------\r\n'10/20/2021 11:02:41 PM' - Overall Result: Fail\r\n'10/20/2021 11:02:41 PM' - Duration: [0 min: 18 sec: 646 msec]\r\n------------------------------------------------------------\r\n\r\n",
+                      "ScreenRecordingResultPath": null,
+                      "ScreenRecordingResultError": null,
+                      "ScreenRecordingResultCodec": null,
+                      "ScreenRecordingResultSize": 0,
+                      "FailureException": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.ElementFindException",
+  "__value": {
+    "message": "Unable to locate 'target' element. Details: Attempting to find [Html] element using \r\nFind logic \r\n (Html): [class 'Exact' ng-pristine ng-valid p-inputtext p-component p-filled ng-touched] AND [tagname 'Exact' input]\r\n\r\nUnable to locate element. Search failed!\r\n\r\n\r\nGetting element image for step Desktop command: Drag & Drop Text to Window Target ...\r\nUnable to locate element by image.\r\nElement was found by backup search only! We recommend editing the element to correct the primary find expression. \nBackup search: 'xpath=/html[1]/body[1]/app-root[1]/app-login-page[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]' \n\r\nLearn more about finding elements here:\r\nhttp://docs.telerik.com/teststudio/troubleshooting-guide/test-execution-problems-tg/unable-to-locate-element",
+    "FindExpression": {
+      "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+      "__value": {
+        "uniqueKey": "I/tZml0RP5RmZJkFBK+hYNSFKDg=",
+        "NodeKind": 4,
+        "TechnologyType": 1,
+        "Name": "Text",
+        "FindExpressions": [
+          {
+            "Key": 1,
+            "Value": {
+              "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+              "__value": {
+                "Clauses": [
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "class=ng-pristine ng-valid p-inputtext p-component p-filled ng-touched"
+                    }
+                  },
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "tagname=input"
+                    }
+                  }
+                ],
+                "Constraints": [],
+                "ChainStops": []
+              }
+            }
+          }
+        ],
+        "BackupSearchClause": "/html[1]/body[1]/app-root[1]/app-login-page[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]",
+        "ImageSearchClauses": [
+          {
+            "__type": "ArtOfTest.Common.ImageSearchClause",
+            "__value": {
+              "Resolution": "1920, 1200",
+              "BroweserType": 2,
+              "Image": "0BC958A345F73005E4DE1BC5454E9D34D48407F32AA484CB55BB722D67165ADB",
+              "Index": 0,
+              "MatchThreshold": 90,
+              "OsVersion": "10.0.19042.0",
+              "ScreenScale": 1.0,
+              "ScrollOnImageSearch": null
+            }
+          }
+        ],
+        "DataBindingExpressions": {}
+      }
+    },
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "WO Test SD is populated 132792589393364744_files\\Login to TS Site_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "WO Test SD is populated 132792589393364744_files\\Login to TS Site_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 11:02:41 PM"
+            }
+          },
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "I/tZml0RP5RmZJkFBK+hYNSFKDg=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "Text",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "class=ng-pristine ng-valid p-inputtext p-component p-filled ng-touched"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/app-root[1]/app-login-page[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]",
+              "ImageSearchClauses": [
+                {
+                  "__type": "ArtOfTest.Common.ImageSearchClause",
+                  "__value": {
+                    "Resolution": "1920, 1200",
+                    "BroweserType": 2,
+                    "Image": "0BC958A345F73005E4DE1BC5454E9D34D48407F32AA484CB55BB722D67165ADB",
+                    "Index": 0,
+                    "MatchThreshold": 90,
+                    "OsVersion": "10.0.19042.0",
+                    "ScreenScale": 1.0,
+                    "ScrollOnImageSearch": null
+                  }
+                }
+              ],
+              "DataBindingExpressions": {}
+            }
+          }
+        }
+      }
+    }
+  }
+},
+                      "Result": 1,
+                      "TestId": "e7f3b62d-584d-4c6b-a852-e500826410de",
+                      "TestName": "Login to TS Site",
+                      "IsRerun": false,
+                      "TestPath": "Login to TS Site.tstest",
+                      "TestOwner": "",
+                      "TestDescription": "",
+                      "ProjectPath": "",
+                      "StepResults": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                          "__value": {
+                            "TestName": "Login to TS Site",
+                            "TestPath": "Login to TS Site.tstest",
+                            "TestId": "e7f3b62d-584d-4c6b-a852-e500826410de",
+                            "TestStepIndex": 0,
+                            "StepDescription": "Navigate to : '/'",
+                            "Exception": null,
+                            "ResultType": 0,
+                            "State": {
+                              "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                              "__value": {
+                                "Mode": 1,
+                                "DomFilePath": null,
+                                "ImageFilePath": null,
+                                "ExpectedImageFilePath": null,
+                                "TechnologyType": 1,
+                                "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 11:02:23 PM"
+                              }
+                            },
+                            "Order": 1,
+                            "LogMessageOnError": "",
+                            "UserComment": null,
+                            "HashCode": 1347723234,
+                            "IsManual": false,
+                            "WasStepEnabled": false,
+                            "Warnings": null
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                          "__value": {
+                            "TestName": "Login to TS Site",
+                            "TestPath": "Login to TS Site.tstest",
+                            "TestId": "e7f3b62d-584d-4c6b-a852-e500826410de",
+                            "TestStepIndex": 1,
+                            "StepDescription": "Desktop command: Drag & Drop Text to Window Target",
+                            "Exception": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.ElementFindException",
+  "__value": {
+    "message": "Unable to locate 'target' element. Details: Attempting to find [Html] element using \r\nFind logic \r\n (Html): [class 'Exact' ng-pristine ng-valid p-inputtext p-component p-filled ng-touched] AND [tagname 'Exact' input]\r\n\r\nUnable to locate element. Search failed!\r\n\r\n\r\nGetting element image for step Desktop command: Drag & Drop Text to Window Target ...\r\nUnable to locate element by image.\r\nElement was found by backup search only! We recommend editing the element to correct the primary find expression. \nBackup search: 'xpath=/html[1]/body[1]/app-root[1]/app-login-page[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]' \n\r\nLearn more about finding elements here:\r\nhttp://docs.telerik.com/teststudio/troubleshooting-guide/test-execution-problems-tg/unable-to-locate-element",
+    "FindExpression": {
+      "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+      "__value": {
+        "uniqueKey": "I/tZml0RP5RmZJkFBK+hYNSFKDg=",
+        "NodeKind": 4,
+        "TechnologyType": 1,
+        "Name": "Text",
+        "FindExpressions": [
+          {
+            "Key": 1,
+            "Value": {
+              "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+              "__value": {
+                "Clauses": [
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "class=ng-pristine ng-valid p-inputtext p-component p-filled ng-touched"
+                    }
+                  },
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "tagname=input"
+                    }
+                  }
+                ],
+                "Constraints": [],
+                "ChainStops": []
+              }
+            }
+          }
+        ],
+        "BackupSearchClause": "/html[1]/body[1]/app-root[1]/app-login-page[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]",
+        "ImageSearchClauses": [
+          {
+            "__type": "ArtOfTest.Common.ImageSearchClause",
+            "__value": {
+              "Resolution": "1920, 1200",
+              "BroweserType": 2,
+              "Image": "0BC958A345F73005E4DE1BC5454E9D34D48407F32AA484CB55BB722D67165ADB",
+              "Index": 0,
+              "MatchThreshold": 90,
+              "OsVersion": "10.0.19042.0",
+              "ScreenScale": 1.0,
+              "ScrollOnImageSearch": null
+            }
+          }
+        ],
+        "DataBindingExpressions": {}
+      }
+    },
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "WO Test SD is populated 132792589393364744_files\\Login to TS Site_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "WO Test SD is populated 132792589393364744_files\\Login to TS Site_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 11:02:41 PM"
+            }
+          },
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "I/tZml0RP5RmZJkFBK+hYNSFKDg=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "Text",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "class=ng-pristine ng-valid p-inputtext p-component p-filled ng-touched"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/app-root[1]/app-login-page[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]",
+              "ImageSearchClauses": [
+                {
+                  "__type": "ArtOfTest.Common.ImageSearchClause",
+                  "__value": {
+                    "Resolution": "1920, 1200",
+                    "BroweserType": 2,
+                    "Image": "0BC958A345F73005E4DE1BC5454E9D34D48407F32AA484CB55BB722D67165ADB",
+                    "Index": 0,
+                    "MatchThreshold": 90,
+                    "OsVersion": "10.0.19042.0",
+                    "ScreenScale": 1.0,
+                    "ScrollOnImageSearch": null
+                  }
+                }
+              ],
+              "DataBindingExpressions": {}
+            }
+          }
+        }
+      }
+    }
+  }
+},
+                            "ResultType": 1,
+                            "State": {
+                              "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                              "__value": {
+                                "Mode": 2,
+                                "DomFilePath": "WO Test SD is populated 132792589393364744_files\\Login to TS Site_0_DomTreeOnFailure.txt",
+                                "ImageFilePath": "WO Test SD is populated 132792589393364744_files\\Login to TS Site_0_ImageOnFailure.png",
+                                "ExpectedImageFilePath": null,
+                                "TechnologyType": 1,
+                                "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 11:02:41 PM"
+                              }
+                            },
+                            "Order": 2,
+                            "LogMessageOnError": "",
+                            "UserComment": null,
+                            "HashCode": 1781452841,
+                            "IsManual": false,
+                            "WasStepEnabled": false,
+                            "Warnings": null
+                          }
+                        }
+                      ],
+                      "NotRunStepDescriptions": [
+                        "Enter text 'terry' in 'Text0'",
+                        "Keyboard (KeyPress) - Tab (1 times) on 'Password'",
+                        "Enter text 'firebird' in 'Password1'",
+                        "Click 'SignIn'",
+                        "Verify element 'ApolloLayoutImage' 'is' visible."
+                      ],
+                      "TotalPassedSteps": 1,
+                      "ExecutingTestStepCount": 2,
+                      "TotalNumberOfNotRunSteps": 0,
+                      "IsDataDrivenResult": false,
+                      "DataIterationResults": [],
+                      "EndTime": "2021-10-21T03:02:41.0573729Z",
+                      "StartTime": "2021-10-21T03:02:22.4108738Z",
+                      "ProfilerResultsPath": null,
+                      "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+                      "CommitedBy": null,
+                      "HasWarnings": false
+                    }
+                  },
+                  "ResultType": 1,
+                  "Exception": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.ElementFindException",
+  "__value": {
+    "message": "Unable to locate 'target' element. Details: Attempting to find [Html] element using \r\nFind logic \r\n (Html): [class 'Exact' ng-pristine ng-valid p-inputtext p-component p-filled ng-touched] AND [tagname 'Exact' input]\r\n\r\nUnable to locate element. Search failed!\r\n\r\n\r\nGetting element image for step Desktop command: Drag & Drop Text to Window Target ...\r\nUnable to locate element by image.\r\nElement was found by backup search only! We recommend editing the element to correct the primary find expression. \nBackup search: 'xpath=/html[1]/body[1]/app-root[1]/app-login-page[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]' \n\r\nLearn more about finding elements here:\r\nhttp://docs.telerik.com/teststudio/troubleshooting-guide/test-execution-problems-tg/unable-to-locate-element",
+    "FindExpression": {
+      "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+      "__value": {
+        "uniqueKey": "I/tZml0RP5RmZJkFBK+hYNSFKDg=",
+        "NodeKind": 4,
+        "TechnologyType": 1,
+        "Name": "Text",
+        "FindExpressions": [
+          {
+            "Key": 1,
+            "Value": {
+              "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+              "__value": {
+                "Clauses": [
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "class=ng-pristine ng-valid p-inputtext p-component p-filled ng-touched"
+                    }
+                  },
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "tagname=input"
+                    }
+                  }
+                ],
+                "Constraints": [],
+                "ChainStops": []
+              }
+            }
+          }
+        ],
+        "BackupSearchClause": "/html[1]/body[1]/app-root[1]/app-login-page[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]",
+        "ImageSearchClauses": [
+          {
+            "__type": "ArtOfTest.Common.ImageSearchClause",
+            "__value": {
+              "Resolution": "1920, 1200",
+              "BroweserType": 2,
+              "Image": "0BC958A345F73005E4DE1BC5454E9D34D48407F32AA484CB55BB722D67165ADB",
+              "Index": 0,
+              "MatchThreshold": 90,
+              "OsVersion": "10.0.19042.0",
+              "ScreenScale": 1.0,
+              "ScrollOnImageSearch": null
+            }
+          }
+        ],
+        "DataBindingExpressions": {}
+      }
+    },
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "WO Test SD is populated 132792589393364744_files\\Login to TS Site_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "WO Test SD is populated 132792589393364744_files\\Login to TS Site_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 11:02:41 PM"
+            }
+          },
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "I/tZml0RP5RmZJkFBK+hYNSFKDg=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "Text",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "class=ng-pristine ng-valid p-inputtext p-component p-filled ng-touched"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/app-root[1]/app-login-page[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]",
+              "ImageSearchClauses": [
+                {
+                  "__type": "ArtOfTest.Common.ImageSearchClause",
+                  "__value": {
+                    "Resolution": "1920, 1200",
+                    "BroweserType": 2,
+                    "Image": "0BC958A345F73005E4DE1BC5454E9D34D48407F32AA484CB55BB722D67165ADB",
+                    "Index": 0,
+                    "MatchThreshold": 90,
+                    "OsVersion": "10.0.19042.0",
+                    "ScreenScale": 1.0,
+                    "ScrollOnImageSearch": null
+                  }
+                }
+              ],
+              "DataBindingExpressions": {}
+            }
+          }
+        }
+      }
+    }
+  }
+},
+                  "TestName": "WO Test SD is populated",
+                  "TestPath": "WO Test SD is populated.tstest",
+                  "TestId": "f2066255-084b-4c6c-ad00-a98af639ba07",
+                  "TestStepIndex": 0,
+                  "StepDescription": "Execute test 'Login to TS Site'",
+                  "State": {
+                    "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                    "__value": {
+                      "Mode": 1,
+                      "DomFilePath": null,
+                      "ImageFilePath": null,
+                      "ExpectedImageFilePath": null,
+                      "TechnologyType": 1,
+                      "FriendlyName": "Capture Of 'Page (AIMS)' @10/20/2021 11:02:41 PM"
+                    }
+                  },
+                  "Order": 1,
+                  "LogMessageOnError": "",
+                  "UserComment": null,
+                  "HashCode": -832664899,
+                  "IsManual": false,
+                  "WasStepEnabled": false,
+                  "Warnings": null
+                }
+              }
+            ],
+            "NotRunStepDescriptions": [
+              "Click 'WorkOrderSpan'",
+              "Keyboard (KeyPress) - Tab (1 times) on 'Text'",
+              "Verify 'InnerText' 'RegEx' '(.|\\s)*\\S(.|\\s)*' on 'ServiceDepartmentInput'",
+              "Verify input 'CostCenterInput' value 'RegEx' '(.|\\s)*\\S(.|\\s)*'."
+            ],
+            "TotalPassedSteps": 0,
+            "ExecutingTestStepCount": 1,
+            "TotalNumberOfNotRunSteps": 0,
+            "IsDataDrivenResult": false,
+            "DataIterationResults": [],
+            "EndTime": "2021-10-21T03:02:41.2180863Z",
+            "StartTime": "2021-10-21T03:02:22.3170889Z",
+            "ProfilerResultsPath": null,
+            "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+            "CommitedBy": null,
+            "HasWarnings": false
+          }
+        }
+      ],
+      "FileName": "WO Test SD is populated 132792589393364744",
+      "Machine": {
+        "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.Machine",
+        "__value": {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "NetworkName": "PDS-LT-01",
+          "OperatingSystem": "Windows 10",
+          "InstalledBrowsers": [
+            {
+              "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+              "__value": {
+                "Type": 1,
+                "Version": "9.11.19041.0",
+                "IsConfigured": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+              "__value": {
+                "Type": 2,
+                "Version": "93.0 (x64 en-US)",
+                "IsConfigured": true
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+              "__value": {
+                "Type": 7,
+                "Version": "94.0.4606.81",
+                "IsConfigured": true
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+              "__value": {
+                "Type": 10,
+                "Version": "94.0.992.50",
+                "IsConfigured": true
+              }
+            }
+          ],
+          "Status": 0,
+          "ServiceUri": null,
+          "DBState": 0,
+          "UserName": "TSPrague"
+        }
+      },
+      "Messages": null,
+      "RunId": "f20e88ea-5afb-4882-a341-bdf7fd7b5ebf",
+      "Comment": null,
+      "TestListId": "0772f3fc-da3a-4492-a8d0-c9a92f370bc0",
+      "IsManual": false
+    }
+  },
+  "Metadata": null
+}
