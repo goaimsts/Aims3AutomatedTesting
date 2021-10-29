@@ -9,14 +9,27 @@
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurations": {},
-    "CurrentReferences": [],
+    "CurrentReferences": [
+      "System",
+      "System.Core",
+      "ArtOfTest.WebAii, Version=2021.2.809.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Messaging, Version=2021.2.809.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2021.2.809.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2021.2.809.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2021.2.809.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2021.2.809.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2021.2.809.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI.Angular, Version=2021.2.809.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.TelerikUI.Blazor, Version=2021.2.809.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestStudio.Translators.Common, Version=2021.2.809.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
+    ],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
       "__value": [
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "081a4e85-fd63-4a18-bb32-ce4d0333ed37",
+            "Runtime ID": "778c8e3e-feaf-4d5f-8e37-9f5f143edfc2",
             "Description": "Navigate to : '/'",
             "CustomDescription": null,
             "Step": {
@@ -24,7 +37,7 @@
               "__value": {
                 "UseDecodedUrl": true,
                 "NavigateURL": "/",
-                "BaseUrl": "https://aims3ts.aimsasp.net/",
+                "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
                 "SearchByImageFirst": 0,
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
@@ -52,7 +65,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Login to TS Sitexzobg4pf.1ko",
+            "StepImageKey": "Login to BTEST Siteyurvqkh2.bsy",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -61,145 +74,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "4bee8607-ebc0-4a81-b866-195db73a9273",
-            "Description": "Desktop command: Drag & Drop Text to Window Target",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DragDropActionDescriptor",
-              "__value": {
-                "Focus": true,
-                "DesktopActionType": 9,
-                "OffSet": {
-                  "__type": "ArtOfTest.Common.Design.ActionPoint",
-                  "__value": "65, 18, Pixel, TopLeftCorner"
-                },
-                "DropOffSet": {
-                  "__type": "ArtOfTest.Common.Design.ActionPoint",
-                  "__value": "3081, 348, Pixel, TopLeftCorner"
-                },
-                "DropTargetType": 1,
-                "DropWindowData": {
-                  "__type": "ArtOfTest.Common.Design.DragDropWindowData",
-                  "__value": "{X=1912, Y=-8, Width=1920, Height=1075}"
-                },
-                "UsejQuery": false,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "SearchByImageFirst": 0,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "",
-                          "Query": "",
-                          "BaseUrl": "https://aims3ts.aimsasp.net/",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "AIMS",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS"
-                        }
-                      },
-                      "Frame": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "I/tZml0RP5RmZJkFBK+hYNSFKDg=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "Text",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "class=ng-pristine ng-valid p-inputtext p-component p-filled ng-touched"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=input"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/app-root[1]/app-login-page[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]",
-                          "ImageSearchClauses": [
-                            {
-                              "__type": "ArtOfTest.Common.ImageSearchClause",
-                              "__value": {
-                                "Resolution": "1920, 1200",
-                                "BroweserType": 2,
-                                "Image": "0BC958A345F73005E4DE1BC5454E9D34D48407F32AA484CB55BB722D67165ADB",
-                                "Index": 0,
-                                "MatchThreshold": 90,
-                                "OsVersion": "10.0.19042.0",
-                                "ScreenScale": 1.0,
-                                "ScrollOnImageSearch": null
-                              }
-                            }
-                          ],
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 2,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "Login to TS Site2ahrxou3.10m",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "a536ccd4-479b-4932-af2e-5cf1a808364f",
-            "Description": "Enter text 'terry' in 'Text0'",
+            "Runtime ID": "5bfc056d-0984-4ffa-9510-4c9a28b90097",
+            "Description": "Enter text 'terry' in 'Text'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
@@ -210,9 +86,9 @@
                 "KeyHoldTime": 100,
                 "IsPassword": false,
                 "TypingInfo": {
-                  "ElementText": "ter",
-                  "TypedText": "te",
-                  "CaretPosition": 3,
+                  "ElementText": "terry",
+                  "TypedText": "terry",
+                  "CaretPosition": 5,
                   "IsTextArea": false,
                   "IsBackSpace": false
                 },
@@ -245,23 +121,23 @@
                         "__value": {
                           "Path": "",
                           "Query": "",
-                          "BaseUrl": "https://aims3ts.aimsasp.net/",
+                          "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS"
+                          "FriendlyName": "AIMS1"
                         }
                       },
                       "Frame": null,
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "gH3xMfrJlBaJas2hSrL5ob/rXkk=",
+                          "uniqueKey": "snR+CXUUDY6z8XDUHAmft/maz/c=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Text0",
+                          "Name": "Text",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -272,7 +148,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "class=ng-valid p-inputtext p-component p-filled ng-touched ng-dirty"
+                                        "Clause": "placeholder=User Name"
                                       }
                                     },
                                     {
@@ -294,8 +170,8 @@
                               "__type": "ArtOfTest.Common.ImageSearchClause",
                               "__value": {
                                 "Resolution": "1920, 1200",
-                                "BroweserType": 2,
-                                "Image": "704C7D19C2416B152C4AB7F6597C0E6E3AE7F91F2247148EE4E2D6C374DB8445",
+                                "BroweserType": 7,
+                                "Image": "B3F135238F494F0BC968D1FB7A9FCAEA3F43C7772AED853A228D19B1A3329CC0",
                                 "Index": 0,
                                 "MatchThreshold": 90,
                                 "OsVersion": "10.0.19042.0",
@@ -324,11 +200,11 @@
               }
             },
             "Enabled": true,
-            "Order": 3,
+            "Order": 2,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Login to TS Siteh1zxgz5h.m5x",
+            "StepImageKey": "Login to BTEST Sitelp44pgug.r2c",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -337,7 +213,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "c6eed8b7-cac3-4510-bf82-47ec541a8ae9",
+            "Runtime ID": "16992759-f808-4c79-a40e-cc853e95ca24",
             "Description": "Keyboard (KeyPress) - Tab (1 times) on 'Password'",
             "CustomDescription": null,
             "Step": {
@@ -374,23 +250,23 @@
                         "__value": {
                           "Path": "",
                           "Query": "",
-                          "BaseUrl": "https://aims3ts.aimsasp.net/",
+                          "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS"
+                          "FriendlyName": "AIMS1"
                         }
                       },
                       "Frame": null,
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "+ybpZqi3j8CiveKiL7hnQtk7LO0=",
+                          "uniqueKey": "liDvAFwIfvN6OtXkjUN59AVUpPk=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Password0",
+                          "Name": "Password",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -401,7 +277,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "class=ng-untouched ng-pristine ng-valid p-inputtext p-component"
+                                        "Clause": "placeholder=Password"
                                       }
                                     },
                                     {
@@ -423,8 +299,8 @@
                               "__type": "ArtOfTest.Common.ImageSearchClause",
                               "__value": {
                                 "Resolution": "1920, 1200",
-                                "BroweserType": 2,
-                                "Image": "000B46BB4EC53E429CF236265921BAEDBA57C0A26672550CF3328486FEC7B0BE",
+                                "BroweserType": 7,
+                                "Image": "654B447B6F07D048219E457B142B88174C892C17F12F9E653D9E63657553ABA4",
                                 "Index": 0,
                                 "MatchThreshold": 90,
                                 "OsVersion": "10.0.19042.0",
@@ -451,11 +327,11 @@
               }
             },
             "Enabled": true,
-            "Order": 4,
+            "Order": 3,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Login to TS Siteoeq5lm5e.cgf",
+            "StepImageKey": "Login to BTEST Sitev032olm4.3pg",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -464,8 +340,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "c64bc1f2-106c-47d3-928a-e1047c8d5a7a",
-            "Description": "Enter text 'firebird' in 'Password1'",
+            "Runtime ID": "9f1e7eed-2f69-4774-9231-58e0d0a0eab7",
+            "Description": "Enter text 'firebird' in 'Password'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
@@ -476,9 +352,9 @@
                 "KeyHoldTime": 100,
                 "IsPassword": false,
                 "TypingInfo": {
-                  "ElementText": "fireb",
-                  "TypedText": "fire",
-                  "CaretPosition": 5,
+                  "ElementText": "firebird",
+                  "TypedText": "firebird",
+                  "CaretPosition": 8,
                   "IsTextArea": false,
                   "IsBackSpace": false
                 },
@@ -511,23 +387,23 @@
                         "__value": {
                           "Path": "",
                           "Query": "",
-                          "BaseUrl": "https://aims3ts.aimsasp.net/",
+                          "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS"
+                          "FriendlyName": "AIMS1"
                         }
                       },
                       "Frame": null,
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "WB1Vlm9yW4u4x5F4PYb8iQkk7pY=",
+                          "uniqueKey": "liDvAFwIfvN6OtXkjUN59AVUpPk=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Password1",
+                          "Name": "Password",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -538,7 +414,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "class=ng-untouched ng-valid p-inputtext p-component ng-dirty p-filled"
+                                        "Clause": "placeholder=Password"
                                       }
                                     },
                                     {
@@ -560,8 +436,8 @@
                               "__type": "ArtOfTest.Common.ImageSearchClause",
                               "__value": {
                                 "Resolution": "1920, 1200",
-                                "BroweserType": 2,
-                                "Image": "5C3D7597FCABAFECF6350C4FB2F8785E719E6EC6483836703C553D806A7AAF61",
+                                "BroweserType": 7,
+                                "Image": "F17D1B3D902B1D9FCC0E308D9B9B1E4C02BA81D12EC442DE39F2DB1979CEB2B4",
                                 "Index": 0,
                                 "MatchThreshold": 90,
                                 "OsVersion": "10.0.19042.0",
@@ -590,11 +466,11 @@
               }
             },
             "Enabled": true,
-            "Order": 5,
+            "Order": 4,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Login to TS Sitebtaxfs5y.4cu",
+            "StepImageKey": "Login to BTEST Sitea1lue0mx.uys",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -603,8 +479,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "5206c5f8-aeb9-423d-a874-87d4e4914c5b",
-            "Description": "Click 'SignIn'",
+            "Runtime ID": "3f85e8a3-c1a8-48d0-a267-1e8d8a3fd579",
+            "Description": "Click 'SignInSpan'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -637,13 +513,13 @@
                         "__value": {
                           "Path": "",
                           "Query": "",
-                          "BaseUrl": "https://aims3ts.aimsasp.net/",
+                          "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS"
+                          "FriendlyName": "AIMS1"
                         }
                       },
                       "Frame": null,
@@ -653,7 +529,7 @@
                           "uniqueKey": "qAvG7Z9ZZn1OSwa4u0k1Pk921aY=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "SignIn",
+                          "Name": "SignInSpan",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -686,8 +562,8 @@
                               "__type": "ArtOfTest.Common.ImageSearchClause",
                               "__value": {
                                 "Resolution": "1920, 1200",
-                                "BroweserType": 2,
-                                "Image": "69C5001F57807357FC723B5924994FFF71CA002BB2BA7F3C084337447AC25FFC",
+                                "BroweserType": 7,
+                                "Image": "96B49B461F53867044CD37FCD7A7FBDAF79B8F60B5A76D64259F4381C7346837",
                                 "Index": 0,
                                 "MatchThreshold": 90,
                                 "OsVersion": "10.0.19042.0",
@@ -714,11 +590,11 @@
               }
             },
             "Enabled": true,
-            "Order": 6,
+            "Order": 5,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Login to TS Site0f5g50zf.btl",
+            "StepImageKey": "Login to BTEST Site1lnfuiku.vtv",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -727,7 +603,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "726d19ce-0515-4c11-9b95-da63efa87b7a",
+            "Runtime ID": "446cc9be-5817-4a08-ae76-a58183eaa4f4",
             "Description": "Verify element 'ApolloLayoutImage' 'is' visible.",
             "CustomDescription": null,
             "Step": {
@@ -761,13 +637,13 @@
                         "__value": {
                           "Path": "",
                           "Query": "",
-                          "BaseUrl": "https://aims3ts.aimsasp.net/",
+                          "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS"
+                          "FriendlyName": "AIMS1"
                         }
                       },
                       "Frame": null,
@@ -810,8 +686,8 @@
                               "__type": "ArtOfTest.Common.ImageSearchClause",
                               "__value": {
                                 "Resolution": "1920, 1200",
-                                "BroweserType": 2,
-                                "Image": "572E2427E9E0F7718B0BF20206B2E2B3CF8E305937464685077BEE43E7D47EA3",
+                                "BroweserType": 7,
+                                "Image": "E854CC97BF4B6441B99E1A9F9E27B0A2CF633BAE6A7B8CE1FF2CC38F37CE7C07",
                                 "Index": 0,
                                 "MatchThreshold": 90,
                                 "OsVersion": "10.0.19042.0",
@@ -838,11 +714,11 @@
               }
             },
             "Enabled": true,
-            "Order": 7,
+            "Order": 6,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Login to TS Siteu1fz2uxj.5pr",
+            "StepImageKey": "Login to BTEST Siteqocfitr5.qsb",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -864,8 +740,8 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Login to TS Site.resx",
-    "ElementImageStoreFilePath": "Login to TS Site.imgstore",
+    "ResourceFilePath": "Login to BTEST Site.resx",
+    "ElementImageStoreFilePath": "Login to BTEST Site.imgstore",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -889,15 +765,15 @@
     "IsTestFragment": false,
     "StopTestListOnFailure": false,
     "InheritParentDataSource": false,
-    "BrowserType": 0,
+    "BrowserType": 6,
     "QcId": 0,
     "QcFilePath": null,
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Login to TS Site",
+    "Name": "Login to BTEST Site",
     "Owner": "",
-    "Path": "Login to TS Site.tstest",
+    "Path": "Login to BTEST Site.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "e7f3b62d-584d-4c6b-a852-e500826410de",

@@ -36,6 +36,30 @@
                   "__value": {
                     "IsLocked": false,
                     "SearchType": 0,
+                    "AttributeName": "placeholder"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "formControlName"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "appsecurity"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
                     "AttributeName": "id"
                   }
                 },
@@ -168,7 +192,7 @@
       }
     },
     "UnitTypeTypeGeneration": 1,
-    "RecorderBaseUrl": "https://aims3ts.aimsasp.net/",
+    "RecorderBaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
     "IsStoryBoardCapturingEnabled": true,
     "IsElementImageCapturingEnabled": true,
     "UseScreenshotCache": true,
@@ -241,7 +265,7 @@
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
     "BugDescriptionMask": "{Description}",
-    "SelectedBrowserOption": 3,
+    "SelectedBrowserOption": 4,
     "SelectedResponsiveBrowserOption": 4,
     "ResponsiveBrowserDevice": "Pixel 2 XL",
     "ResponsiveBrowserWidth": 411,
