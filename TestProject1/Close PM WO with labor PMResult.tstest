@@ -29,7 +29,49 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "4a1738d6-210b-4d57-9750-4f61952fc087",
+            "Runtime ID": "af3c75cc-e152-47ae-8bc8-3bc7217c34bb",
+            "Description": "Execute test 'Login to BTest Northbay'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__value": {
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "SearchByImageFirst": 0,
+                "TestName": "Login to BTest Northbay",
+                "TestPath": "Login to BTest Northbay.tstest",
+                "TestUniqueId": "d362f7b5-b64b-4071-b633-b5728644dcfe",
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Close PM WO with labor PMResultrq5v45n0.ixj",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "8b384ebd-5c73-4cbb-984e-82c51062e42c",
             "Description": "Click 'WorkOrderSpan'",
             "CustomDescription": null,
             "Step": {
@@ -61,15 +103,15 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "",
+                          "Path": "workOrderMain",
                           "Query": "",
-                          "BaseUrl": "https://aims3ts.aimsasp.net/",
+                          "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS"
+                          "FriendlyName": "AIMS2"
                         }
                       },
                       "Frame": null,
@@ -113,7 +155,7 @@
                               "__value": {
                                 "Resolution": "1920, 1200",
                                 "BroweserType": 7,
-                                "Image": "777428D601BB0FC22C86609DDAF2917E0E084150B2BC45BC0CE51241BFD4A60F",
+                                "Image": "F3E9648CDDA1825E8FCA50C2EB826874CD93DD6DF60D3B4705A41F264CB2271D",
                                 "Index": 0,
                                 "MatchThreshold": 90,
                                 "OsVersion": "10.0.19042.0",
@@ -140,11 +182,11 @@
               }
             },
             "Enabled": true,
-            "Order": 1,
+            "Order": 2,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Close PM WO with labor PMResultt335ksst.dtv",
+            "StepImageKey": "Close PM WO with labor PMResultxhiawqrs.soc",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -153,20 +195,20 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "18e7ba42-bc6b-438b-926d-09ca758d15bf",
-            "Description": "Enter text '8188' in 'Number'",
+            "Runtime ID": "bc5c83a6-bcbc-413b-a229-2cc4a7ee1ea5",
+            "Description": "Enter text '411799' in 'Number'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "RawText": "8188",
+                "RawText": "411799",
                 "SimulateRealTyping": true,
                 "TypingSpeed": 50,
                 "KeyHoldTime": 100,
                 "IsPassword": false,
                 "TypingInfo": {
-                  "ElementText": "8188",
-                  "TypedText": "8188",
+                  "ElementText": "411799",
+                  "TypedText": "411799",
                   "CaretPosition": 0,
                   "IsTextArea": false,
                   "IsBackSpace": false
@@ -200,20 +242,20 @@
                         "__value": {
                           "Path": "workOrderMain",
                           "Query": "",
-                          "BaseUrl": "https://aims3ts.aimsasp.net/",
+                          "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS0"
+                          "FriendlyName": "AIMS2"
                         }
                       },
                       "Frame": null,
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "N+PIKl2nwBXNL286btYV1smtH8Y=",
+                          "uniqueKey": "7S1x8QpguE/aTag3aso0E6O/Wd8=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "Number",
@@ -227,20 +269,18 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=p-panel-2-content"
+                                        "Clause": "formControlName=woNumber"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagIndex=input:1"
+                                        "Clause": "tagname=input"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
+                                  "ChainStops": []
                                 }
                               }
                             }
@@ -252,7 +292,7 @@
                               "__value": {
                                 "Resolution": "1920, 1200",
                                 "BroweserType": 7,
-                                "Image": "96F7E4EE44BC6E908F756746CA0BA6FB4FB89963A47218FF107146168F7DD221",
+                                "Image": "325DF22C0915D6EC3B9C84867B97CF9C0BBFBC662A566CACC358C1E539CE2AA1",
                                 "Index": 0,
                                 "MatchThreshold": 90,
                                 "OsVersion": "10.0.19042.0",
@@ -281,11 +321,11 @@
               }
             },
             "Enabled": true,
-            "Order": 2,
+            "Order": 3,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Close PM WO with labor PMResult5huqun2d.piv",
+            "StepImageKey": "Close PM WO with labor PMResulthofr1vve.w3g",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -294,7 +334,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "6ff99cbc-9532-41eb-bd3d-7b59340cf475",
+            "Runtime ID": "d30c7166-51a6-4b1b-94ad-45571d2b843e",
             "Description": "Keyboard (KeyPress) - Tab (1 times) on 'Text'",
             "CustomDescription": null,
             "Step": {
@@ -331,23 +371,23 @@
                         "__value": {
                           "Path": "workOrderMain",
                           "Query": "",
-                          "BaseUrl": "https://aims3ts.aimsasp.net/",
+                          "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS0"
+                          "FriendlyName": "AIMS2"
                         }
                       },
                       "Frame": null,
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "rA7YMylZoI74dCFoQbPtoHba3wk=",
+                          "uniqueKey": "bulnprpHYb5RwXyKZfqlu9FSe3E=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Text",
+                          "Name": "Text0",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -358,20 +398,18 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=p-panel-2-content"
+                                        "Clause": "class=ng-tns-c72-35 p-inputtext p-component ng-star-inserted"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagIndex=input:3"
+                                        "Clause": "tagname=input"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
+                                  "ChainStops": []
                                 }
                               }
                             }
@@ -383,7 +421,7 @@
                               "__value": {
                                 "Resolution": "1920, 1200",
                                 "BroweserType": 7,
-                                "Image": "C0E410382125CD2D80E540FE20A2E935D8C5D1FCC253C298A4CED93F3242805C",
+                                "Image": "5C4C7A0DC4E9AF504C7554FAD5E9840BFA8AF2CAAA6B6CF2D369E9A28EA9A3A1",
                                 "Index": 0,
                                 "MatchThreshold": 90,
                                 "OsVersion": "10.0.19042.0",
@@ -410,11 +448,11 @@
               }
             },
             "Enabled": true,
-            "Order": 3,
+            "Order": 4,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Close PM WO with labor PMResultornoxxlw.uq0",
+            "StepImageKey": "Close PM WO with labor PMResultsdw5mwqy.1tc",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -423,8 +461,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "47899eb7-6f43-4f19-9e70-b4a7c8a19807",
-            "Description": "Click 'Update Tab'",
+            "Runtime ID": "6b425edc-2c35-4328-87f3-d98609262487",
+            "Description": "Click 'UpdateSpan'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -457,23 +495,23 @@
                         "__value": {
                           "Path": "workOrderMain",
                           "Query": "",
-                          "BaseUrl": "https://aims3ts.aimsasp.net/",
+                          "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS0"
+                          "FriendlyName": "AIMS2"
                         }
                       },
                       "Frame": null,
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "bY2kSNzIzJwfiL3ripzkyrPwzwM=",
+                          "uniqueKey": "mWxisYDhyELVW3nEkNLXyqIR4bU=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Update Tab",
+                          "Name": "UpdateSpan",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -484,13 +522,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=p-tabpanel-1-label"
+                                        "Clause": "TextContent=Update"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=a"
+                                        "Clause": "tagname=span"
                                       }
                                     }
                                   ],
@@ -500,14 +538,14 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/div[1]/p-tabview[1]/div[1]/ul[1]/li[2]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/div[1]/p-tabview[1]/div[1]/ul[1]/li[2]/a[1]/span[2]",
                           "ImageSearchClauses": [
                             {
                               "__type": "ArtOfTest.Common.ImageSearchClause",
                               "__value": {
                                 "Resolution": "1920, 1200",
                                 "BroweserType": 7,
-                                "Image": "244BB56763C8B724CEF6F7A0938FE23DB362551589AB1AD5D66555C0F5CBC684",
+                                "Image": "473DF13F3944DE4FE5FFCE8AFC13FFE973797C8495090E30036105F775122E72",
                                 "Index": 0,
                                 "MatchThreshold": 90,
                                 "OsVersion": "10.0.19042.0",
@@ -519,7 +557,7 @@
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -534,11 +572,11 @@
               }
             },
             "Enabled": true,
-            "Order": 4,
+            "Order": 5,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Close PM WO with labor PMResulthtnes1ov.oem",
+            "StepImageKey": "Close PM WO with labor PMResultix2ekwnq.mmf",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -547,8 +585,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "787c4aab-8289-4ebc-a40d-301673a18ffc",
-            "Description": "Verify input 'WO Status' value 'Exact' 'Open'.",
+            "Runtime ID": "be773dab-a47a-4ea3-b811-9b16998ea8d4",
+            "Description": "Verify input 'Text' value 'Exact' 'Open'.",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.InputValueVerificationDescriptor",
@@ -582,23 +620,23 @@
                         "__value": {
                           "Path": "workOrderMain",
                           "Query": "",
-                          "BaseUrl": "https://aims3ts.aimsasp.net/",
+                          "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS0"
+                          "FriendlyName": "AIMS2"
                         }
                       },
                       "Frame": null,
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "G0qhCrJzHUy58ndlpyHeMA5Ifl8=",
+                          "uniqueKey": "ERFJacbiQsxfC3zop53EQrEIl6c=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "WO Status",
+                          "Name": "Text1",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -609,20 +647,18 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=p-panel-2-content"
+                                        "Clause": "class=p-autocomplete-input p-inputtext p-component ng-tns-c25-36 ng-star-inserted p-autocomplete-dd-input"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagIndex=input:4"
+                                        "Clause": "tagname=input"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
+                                  "ChainStops": []
                                 }
                               }
                             }
@@ -634,7 +670,7 @@
                               "__value": {
                                 "Resolution": "1920, 1200",
                                 "BroweserType": 7,
-                                "Image": "F3A4B8089559C96ECC8208832EA735BDD71455FA9E8B8491462B5F0B9BBD07EF",
+                                "Image": "88A541C0E3B020EBC1F85A1AFB4F77043DEB2E33EBD0778BF3A0A8EDC906A002",
                                 "Index": 0,
                                 "MatchThreshold": 90,
                                 "OsVersion": "10.0.19042.0",
@@ -661,11 +697,11 @@
               }
             },
             "Enabled": false,
-            "Order": 5,
+            "Order": 6,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Close PM WO with labor PMResultnwklxjo2.kby",
+            "StepImageKey": "Close PM WO with labor PMResult0riy4uz4.zh4",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -674,8 +710,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "d006d685-db70-4d20-96ed-62c71b96a154",
-            "Description": "IF (Verify input 'WO Status' value 'Exact' 'Open'.)",
+            "Runtime ID": "164fe449-b920-4264-af28-05b8f3017457",
+            "Description": "IF (Verify input 'Text1' value 'Exact' 'Open'.)",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.IfThenElseLogicalDescriptor",
@@ -712,23 +748,23 @@
                             "__value": {
                               "Path": "workOrderMain",
                               "Query": "",
-                              "BaseUrl": "https://aims3ts.aimsasp.net/",
+                              "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
                               "EquivalentUrls": [],
                               "Fragment": "",
                               "Title": "AIMS",
                               "CompareMode": 2,
                               "AlwaysUseTitleInCompare": false,
-                              "FriendlyName": "AIMS0"
+                              "FriendlyName": "AIMS2"
                             }
                           },
                           "Frame": null,
                           "FindExpression": {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                             "__value": {
-                              "uniqueKey": "G0qhCrJzHUy58ndlpyHeMA5Ifl8=",
+                              "uniqueKey": "ERFJacbiQsxfC3zop53EQrEIl6c=",
                               "NodeKind": 4,
                               "TechnologyType": 1,
-                              "Name": "WO Status",
+                              "Name": "Text1",
                               "FindExpressions": [
                                 {
                                   "Key": 1,
@@ -739,20 +775,18 @@
                                         {
                                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                           "__value": {
-                                            "Clause": "id=p-panel-2-content"
+                                            "Clause": "class=p-autocomplete-input p-inputtext p-component ng-tns-c25-36 ng-star-inserted p-autocomplete-dd-input"
                                           }
                                         },
                                         {
                                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                           "__value": {
-                                            "Clause": "tagIndex=input:4"
+                                            "Clause": "tagname=input"
                                           }
                                         }
                                       ],
                                       "Constraints": [],
-                                      "ChainStops": [
-                                        1
-                                      ]
+                                      "ChainStops": []
                                     }
                                   }
                                 }
@@ -764,7 +798,7 @@
                                   "__value": {
                                     "Resolution": "1920, 1200",
                                     "BroweserType": 7,
-                                    "Image": "F3A4B8089559C96ECC8208832EA735BDD71455FA9E8B8491462B5F0B9BBD07EF",
+                                    "Image": "88A541C0E3B020EBC1F85A1AFB4F77043DEB2E33EBD0778BF3A0A8EDC906A002",
                                     "Index": 0,
                                     "MatchThreshold": 90,
                                     "OsVersion": "10.0.19042.0",
@@ -800,7 +834,7 @@
                           {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                             "__value": {
-                              "Runtime ID": "69d0aa11-7e16-4cee-80cb-9bf5a41fd45d",
+                              "Runtime ID": "c2bab9eb-493c-472d-bdb6-8d244eecca45",
                               "Description": "Click 'CloseSpan'",
                               "CustomDescription": null,
                               "Step": {
@@ -834,13 +868,13 @@
                                           "__value": {
                                             "Path": "workOrderMain",
                                             "Query": "",
-                                            "BaseUrl": "https://aims3ts.aimsasp.net/",
+                                            "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
                                             "EquivalentUrls": [],
                                             "Fragment": "",
                                             "Title": "AIMS",
                                             "CompareMode": 2,
                                             "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "AIMS0"
+                                            "FriendlyName": "AIMS2"
                                           }
                                         },
                                         "Frame": null,
@@ -850,7 +884,7 @@
                                             "uniqueKey": "ORx6aj6zOTsY/37tnwfuoPMbV7M=",
                                             "NodeKind": 4,
                                             "TechnologyType": 1,
-                                            "Name": "CloseSpan",
+                                            "Name": "WO Close Button",
                                             "FindExpressions": [
                                               {
                                                 "Key": 1,
@@ -884,7 +918,7 @@
                                                 "__value": {
                                                   "Resolution": "1920, 1200",
                                                   "BroweserType": 7,
-                                                  "Image": "5EE65A1203CC08242848072B30F44E9DC44479ABD30B9CCD82F10BA63091C3B1",
+                                                  "Image": "31E562E630031300814C198E8E93BC73791705A6358AD436E54DA2CF3B330442",
                                                   "Index": 0,
                                                   "MatchThreshold": 90,
                                                   "OsVersion": "10.0.19042.0",
@@ -915,7 +949,7 @@
                               "Id": "",
                               "StepState": 0,
                               "ContinueOnFailure": false,
-                              "StepImageKey": "Close PM WO with labor PMResultt0rgufrm.fih",
+                              "StepImageKey": "Close PM WO with labor PMResultkzwt3la2.4vf",
                               "QcId": 0,
                               "QcVersionStamp": 0,
                               "Version": 200
@@ -924,8 +958,8 @@
                           {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                             "__value": {
-                              "Runtime ID": "8e3d0364-e55e-4a53-9a31-0f80b1670731",
-                              "Description": "Click 'CloseSpan'",
+                              "Runtime ID": "04444193-670c-4f46-971b-c844f3226798",
+                              "Description": "Click 'WO Close Button'",
                               "CustomDescription": null,
                               "Step": {
                                 "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -958,23 +992,23 @@
                                           "__value": {
                                             "Path": "workOrderMain",
                                             "Query": "",
-                                            "BaseUrl": "https://aims3ts.aimsasp.net/",
+                                            "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
                                             "EquivalentUrls": [],
                                             "Fragment": "",
                                             "Title": "AIMS",
                                             "CompareMode": 2,
                                             "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "AIMS0"
+                                            "FriendlyName": "AIMS2"
                                           }
                                         },
                                         "Frame": null,
                                         "FindExpression": {
                                           "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                                           "__value": {
-                                            "uniqueKey": "GeJr/mV7tzO28QzJZ5MshIQ2Nww=",
+                                            "uniqueKey": "ORx6aj6zOTsY/37tnwfuoPMbV7M=",
                                             "NodeKind": 4,
                                             "TechnologyType": 1,
-                                            "Name": "CloseSpan0",
+                                            "Name": "WO Close Button",
                                             "FindExpressions": [
                                               {
                                                 "Key": 1,
@@ -985,7 +1019,13 @@
                                                       {
                                                         "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                         "__value": {
-                                                          "Clause": "TagIndex=span:266"
+                                                          "Clause": "TextContent=Close"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "tagname=span"
                                                         }
                                                       }
                                                     ],
@@ -995,14 +1035,14 @@
                                                 }
                                               }
                                             ],
-                                            "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/app-work-order-close[1]/p-dialog[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/button[1]/span[2]",
+                                            "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/div[1]/p-tabview[1]/div[1]/div[1]/p-tabpanel[2]/div[1]/app-work-order-update[1]/div[1]/div[2]/button[1]/span[2]",
                                             "ImageSearchClauses": [
                                               {
                                                 "__type": "ArtOfTest.Common.ImageSearchClause",
                                                 "__value": {
                                                   "Resolution": "1920, 1200",
                                                   "BroweserType": 7,
-                                                  "Image": "9D770491E6C3226D3E865D82AB65F642A274FD5C6AAD84EA0099C4AA67F298A4",
+                                                  "Image": "31E562E630031300814C198E8E93BC73791705A6358AD436E54DA2CF3B330442",
                                                   "Index": 0,
                                                   "MatchThreshold": 90,
                                                   "OsVersion": "10.0.19042.0",
@@ -1033,7 +1073,7 @@
                               "Id": "",
                               "StepState": 0,
                               "ContinueOnFailure": false,
-                              "StepImageKey": "Close PM WO with labor PMResultm1dxo1hy.uas",
+                              "StepImageKey": "Close PM WO with labor PMResultnurtm0yn.dll",
                               "QcId": 0,
                               "QcVersionStamp": 0,
                               "Version": 200
@@ -1042,8 +1082,117 @@
                           {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                             "__value": {
-                              "Runtime ID": "355c5531-3d56-4aa0-a4e2-7992e6136016",
-                              "Description": "Click 'ConfirmClose'",
+                              "Runtime ID": "d5941f4e-ede7-4141-a5d2-c22cf79bc71e",
+                              "Description": "Desktop command: LeftClick on Span",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+                                "__value": {
+                                  "Focus": true,
+                                  "ScrollToVisibleType": 2,
+                                  "DesktopActionType": 0,
+                                  "OffSet": {
+                                    "__type": "ArtOfTest.Common.Design.ActionPoint",
+                                    "__value": "0, 0, Percentage, AbsoluteCenter"
+                                  },
+                                  "UsejQuery": false,
+                                  "ClosesBrowser": false,
+                                  "AjaxTimeout": 0,
+                                  "Pause": 0,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "SearchByImageFirst": 0,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElements": true,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {
+                                    "target": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "target",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "workOrderMain",
+                                            "Query": "",
+                                            "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "AIMS",
+                                            "CompareMode": 2,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "AIMS2"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "csq9VdQ3GPcUW+KGzz6oIXy6sHk=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "Span1",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "TagIndex=span:276"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/app-work-order-close[1]/p-dialog[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/button[1]/span[1]",
+                                            "ImageSearchClauses": [],
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 3,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "Close PM WO with labor PMResultiwqca2dc.lf4",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "574821cd-479f-47ab-8844-2dcab7f4e38e",
+                              "Description": "Click 'ButtonTag'",
                               "CustomDescription": null,
                               "Step": {
                                 "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -1076,13 +1225,123 @@
                                           "__value": {
                                             "Path": "workOrderMain",
                                             "Query": "",
-                                            "BaseUrl": "https://aims3ts.aimsasp.net/",
+                                            "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
                                             "EquivalentUrls": [],
                                             "Fragment": "",
                                             "Title": "AIMS",
                                             "CompareMode": 2,
                                             "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "AIMS0"
+                                            "FriendlyName": "AIMS2"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "uj9s0KmSrqdFKGHR8Rdj99okfN0=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "ButtonTag1",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "class=p-col-6 p-button p-component"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "tagname=button"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/app-work-order-close[1]/p-dialog[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/button[1]",
+                                            "ImageSearchClauses": [],
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlButton",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 4,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "Close PM WO with labor PMResult2zwyongh.50a",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "7e5ce205-0532-44a0-b30e-1a39de38d01d",
+                              "Description": "Click 'ButtonTag0'",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+                                "__value": {
+                                  "SimulateRealClick": true,
+                                  "ScrollToVisibleType": 2,
+                                  "UsejQuery": false,
+                                  "ClosesBrowser": false,
+                                  "AjaxTimeout": 0,
+                                  "Pause": 0,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "SearchByImageFirst": 0,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElements": true,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {
+                                    "target": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "target",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "workOrderMain",
+                                            "Query": "",
+                                            "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "AIMS",
+                                            "CompareMode": 2,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "AIMS2"
                                           }
                                         },
                                         "Frame": null,
@@ -1092,7 +1351,7 @@
                                             "uniqueKey": "MgIB1v4DGT5LgiD5qV+FHpG4YqI=",
                                             "NodeKind": 4,
                                             "TechnologyType": 1,
-                                            "Name": "ConfirmClose",
+                                            "Name": "ButtonTag0",
                                             "FindExpressions": [
                                               {
                                                 "Key": 1,
@@ -1114,21 +1373,7 @@
                                               }
                                             ],
                                             "BackupSearchClause": "/html[1]/body[1]/app-root[1]/p-confirmdialog[1]/div[1]/div[1]/div[3]/p-footer[1]/button[2]",
-                                            "ImageSearchClauses": [
-                                              {
-                                                "__type": "ArtOfTest.Common.ImageSearchClause",
-                                                "__value": {
-                                                  "Resolution": "1920, 1200",
-                                                  "BroweserType": 7,
-                                                  "Image": "A577A1C2D83EC6C371C812D5527A0819CD404A4CAE061FA74ED817A6D8789C4D",
-                                                  "Index": 0,
-                                                  "MatchThreshold": 90,
-                                                  "OsVersion": "10.0.19042.0",
-                                                  "ScreenScale": 1.0,
-                                                  "ScrollOnImageSearch": null
-                                                }
-                                              }
-                                            ],
+                                            "ImageSearchClauses": [],
                                             "DataBindingExpressions": {}
                                           }
                                         },
@@ -1147,11 +1392,11 @@
                                 }
                               },
                               "Enabled": true,
-                              "Order": 3,
+                              "Order": 5,
                               "Id": "",
                               "StepState": 0,
                               "ContinueOnFailure": false,
-                              "StepImageKey": "Close PM WO with labor PMResultwtyczwab.opg",
+                              "StepImageKey": "Close PM WO with labor PMResultej2bgqlv.puf",
                               "QcId": 0,
                               "QcVersionStamp": 0,
                               "Version": 200
@@ -1160,8 +1405,8 @@
                           {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                             "__value": {
-                              "Runtime ID": "4142b68f-6a6f-4160-bfba-e34514a9a723",
-                              "Description": "Verify input 'WO Status' value 'Exact' 'Closed'.",
+                              "Runtime ID": "087bbd75-977b-49b4-8c3a-50e4706b52ff",
+                              "Description": "Verify input 'Text1' value 'Exact' 'Closed'.",
                               "CustomDescription": null,
                               "Step": {
                                 "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.InputValueVerificationDescriptor",
@@ -1195,23 +1440,23 @@
                                           "__value": {
                                             "Path": "workOrderMain",
                                             "Query": "",
-                                            "BaseUrl": "https://aims3ts.aimsasp.net/",
+                                            "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
                                             "EquivalentUrls": [],
                                             "Fragment": "",
                                             "Title": "AIMS",
                                             "CompareMode": 2,
                                             "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "AIMS0"
+                                            "FriendlyName": "AIMS2"
                                           }
                                         },
                                         "Frame": null,
                                         "FindExpression": {
                                           "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                                           "__value": {
-                                            "uniqueKey": "G0qhCrJzHUy58ndlpyHeMA5Ifl8=",
+                                            "uniqueKey": "ERFJacbiQsxfC3zop53EQrEIl6c=",
                                             "NodeKind": 4,
                                             "TechnologyType": 1,
-                                            "Name": "WO Status",
+                                            "Name": "Text1",
                                             "FindExpressions": [
                                               {
                                                 "Key": 1,
@@ -1222,20 +1467,18 @@
                                                       {
                                                         "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                         "__value": {
-                                                          "Clause": "id=p-panel-2-content"
+                                                          "Clause": "class=p-autocomplete-input p-inputtext p-component ng-tns-c25-36 ng-star-inserted p-autocomplete-dd-input"
                                                         }
                                                       },
                                                       {
                                                         "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                         "__value": {
-                                                          "Clause": "tagIndex=input:4"
+                                                          "Clause": "tagname=input"
                                                         }
                                                       }
                                                     ],
                                                     "Constraints": [],
-                                                    "ChainStops": [
-                                                      1
-                                                    ]
+                                                    "ChainStops": []
                                                   }
                                                 }
                                               }
@@ -1247,7 +1490,7 @@
                                                 "__value": {
                                                   "Resolution": "1920, 1200",
                                                   "BroweserType": 7,
-                                                  "Image": "F3A4B8089559C96ECC8208832EA735BDD71455FA9E8B8491462B5F0B9BBD07EF",
+                                                  "Image": "88A541C0E3B020EBC1F85A1AFB4F77043DEB2E33EBD0778BF3A0A8EDC906A002",
                                                   "Index": 0,
                                                   "MatchThreshold": 90,
                                                   "OsVersion": "10.0.19042.0",
@@ -1274,11 +1517,11 @@
                                 }
                               },
                               "Enabled": true,
-                              "Order": 4,
+                              "Order": 6,
                               "Id": "",
                               "StepState": 0,
                               "ContinueOnFailure": false,
-                              "StepImageKey": "Close PM WO with labor PMResultbtxopyxx.x1c",
+                              "StepImageKey": "Close PM WO with labor PMResultbzsdzulq.43o",
                               "QcId": 0,
                               "QcVersionStamp": 0,
                               "Version": 200
@@ -1302,8 +1545,8 @@
                           {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                             "__value": {
-                              "Runtime ID": "5ac43866-bc98-4d07-a6b9-d9cfa4a90ae3",
-                              "Description": "Click 'ReOpenButton'",
+                              "Runtime ID": "e7cad8c9-36d5-44bb-b43d-32442eee45d8",
+                              "Description": "Click 'CloseSpan'",
                               "CustomDescription": null,
                               "Step": {
                                 "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -1336,23 +1579,23 @@
                                           "__value": {
                                             "Path": "workOrderMain",
                                             "Query": "",
-                                            "BaseUrl": "https://aims3ts.aimsasp.net/",
+                                            "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
                                             "EquivalentUrls": [],
                                             "Fragment": "",
                                             "Title": "AIMS",
                                             "CompareMode": 2,
                                             "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "AIMS0"
+                                            "FriendlyName": "AIMS2"
                                           }
                                         },
                                         "Frame": null,
                                         "FindExpression": {
                                           "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                                           "__value": {
-                                            "uniqueKey": "qS0aujFpVxojUCE3+7DzO7vjel8=",
+                                            "uniqueKey": "ORx6aj6zOTsY/37tnwfuoPMbV7M=",
                                             "NodeKind": 4,
                                             "TechnologyType": 1,
-                                            "Name": "ReOpenButton",
+                                            "Name": "WO Close Button",
                                             "FindExpressions": [
                                               {
                                                 "Key": 1,
@@ -1363,32 +1606,30 @@
                                                       {
                                                         "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                         "__value": {
-                                                          "Clause": "id=p-tabpanel-1"
+                                                          "Clause": "TextContent=Close"
                                                         }
                                                       },
                                                       {
                                                         "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                         "__value": {
-                                                          "Clause": "tagIndex=button:21"
+                                                          "Clause": "tagname=span"
                                                         }
                                                       }
                                                     ],
                                                     "Constraints": [],
-                                                    "ChainStops": [
-                                                      1
-                                                    ]
+                                                    "ChainStops": []
                                                   }
                                                 }
                                               }
                                             ],
-                                            "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/div[1]/p-tabview[1]/div[1]/div[1]/p-tabpanel[2]/div[1]/app-work-order-update[1]/div[1]/div[2]/button[1]",
+                                            "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/div[1]/p-tabview[1]/div[1]/div[1]/p-tabpanel[2]/div[1]/app-work-order-update[1]/div[1]/div[2]/button[1]/span[2]",
                                             "ImageSearchClauses": [
                                               {
                                                 "__type": "ArtOfTest.Common.ImageSearchClause",
                                                 "__value": {
                                                   "Resolution": "1920, 1200",
                                                   "BroweserType": 7,
-                                                  "Image": "D2895046FE3FD1F229601E03B33FDFA461BA7D555DADCA1D90E6510D37C8D444",
+                                                  "Image": "31E562E630031300814C198E8E93BC73791705A6358AD436E54DA2CF3B330442",
                                                   "Index": 0,
                                                   "MatchThreshold": 90,
                                                   "OsVersion": "10.0.19042.0",
@@ -1400,7 +1641,7 @@
                                             "DataBindingExpressions": {}
                                           }
                                         },
-                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlButton",
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
                                         "IsIndependent": false,
                                         "DomStateKey": "",
                                         "TechnologyType": 1,
@@ -1419,7 +1660,7 @@
                               "Id": "",
                               "StepState": 0,
                               "ContinueOnFailure": false,
-                              "StepImageKey": "Close PM WO with labor PMResult0kxuvhqj.24a",
+                              "StepImageKey": "Close PM WO with labor PMResultyigrsfax.khg",
                               "QcId": 0,
                               "QcVersionStamp": 0,
                               "Version": 200
@@ -1428,8 +1669,8 @@
                           {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                             "__value": {
-                              "Runtime ID": "2eff8a0e-6ea7-430c-bf0b-ee0f2596a9b9",
-                              "Description": "Click 'ConfirmReOpen'",
+                              "Runtime ID": "0825ee9e-ec57-4c5e-bc29-b5372a650498",
+                              "Description": "Click 'WO Close Button'",
                               "CustomDescription": null,
                               "Step": {
                                 "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -1462,23 +1703,23 @@
                                           "__value": {
                                             "Path": "workOrderMain",
                                             "Query": "",
-                                            "BaseUrl": "https://aims3ts.aimsasp.net/",
+                                            "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
                                             "EquivalentUrls": [],
                                             "Fragment": "",
                                             "Title": "AIMS",
                                             "CompareMode": 2,
                                             "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "AIMS0"
+                                            "FriendlyName": "AIMS2"
                                           }
                                         },
                                         "Frame": null,
                                         "FindExpression": {
                                           "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                                           "__value": {
-                                            "uniqueKey": "xyy0EbA0UzIvNQfowJzmlcuvcGw=",
+                                            "uniqueKey": "ORx6aj6zOTsY/37tnwfuoPMbV7M=",
                                             "NodeKind": 4,
                                             "TechnologyType": 1,
-                                            "Name": "ConfirmReOpen",
+                                            "Name": "WO Close Button",
                                             "FindExpressions": [
                                               {
                                                 "Key": 1,
@@ -1489,7 +1730,7 @@
                                                       {
                                                         "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                         "__value": {
-                                                          "Clause": "TextContent=Yes"
+                                                          "Clause": "TextContent=Close"
                                                         }
                                                       },
                                                       {
@@ -1505,14 +1746,14 @@
                                                 }
                                               }
                                             ],
-                                            "BackupSearchClause": "/html[1]/body[1]/app-root[1]/p-confirmdialog[1]/div[1]/div[1]/div[3]/p-footer[1]/button[2]/span[2]",
+                                            "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/div[1]/p-tabview[1]/div[1]/div[1]/p-tabpanel[2]/div[1]/app-work-order-update[1]/div[1]/div[2]/button[1]/span[2]",
                                             "ImageSearchClauses": [
                                               {
                                                 "__type": "ArtOfTest.Common.ImageSearchClause",
                                                 "__value": {
                                                   "Resolution": "1920, 1200",
                                                   "BroweserType": 7,
-                                                  "Image": "542E35860B57FCEEB7777CBB9FE5D2193C066F002815A98D4CAD46AF6646C225",
+                                                  "Image": "31E562E630031300814C198E8E93BC73791705A6358AD436E54DA2CF3B330442",
                                                   "Index": 0,
                                                   "MatchThreshold": 90,
                                                   "OsVersion": "10.0.19042.0",
@@ -1543,7 +1784,7 @@
                               "Id": "",
                               "StepState": 0,
                               "ContinueOnFailure": false,
-                              "StepImageKey": "Close PM WO with labor PMResult1atjmojt.gkq",
+                              "StepImageKey": "Close PM WO with labor PMResultvdppa5ay.leq",
                               "QcId": 0,
                               "QcVersionStamp": 0,
                               "Version": 200
@@ -1552,8 +1793,331 @@
                           {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                             "__value": {
-                              "Runtime ID": "280317d7-16e7-4212-920e-73958c761d8a",
-                              "Description": "Verify input 'WO Status' value 'Exact' 'Open'.",
+                              "Runtime ID": "ac9b5b36-be87-44f0-a147-5653384049aa",
+                              "Description": "Desktop command: LeftClick on Span",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+                                "__value": {
+                                  "Focus": true,
+                                  "ScrollToVisibleType": 2,
+                                  "DesktopActionType": 0,
+                                  "OffSet": {
+                                    "__type": "ArtOfTest.Common.Design.ActionPoint",
+                                    "__value": "0, 0, Percentage, AbsoluteCenter"
+                                  },
+                                  "UsejQuery": false,
+                                  "ClosesBrowser": false,
+                                  "AjaxTimeout": 0,
+                                  "Pause": 0,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "SearchByImageFirst": 0,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElements": true,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {
+                                    "target": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "target",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "workOrderMain",
+                                            "Query": "",
+                                            "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "AIMS",
+                                            "CompareMode": 2,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "AIMS2"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "csq9VdQ3GPcUW+KGzz6oIXy6sHk=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "Span1",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "TagIndex=span:276"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/app-work-order-close[1]/p-dialog[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/button[1]/span[1]",
+                                            "ImageSearchClauses": [],
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 3,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "Close PM WO with labor PMResultu0j0wuij.qkz",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "734a1d98-bf2b-4cbf-a09b-3af02b6f1e88",
+                              "Description": "Click 'ButtonTag'",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+                                "__value": {
+                                  "SimulateRealClick": true,
+                                  "ScrollToVisibleType": 2,
+                                  "UsejQuery": false,
+                                  "ClosesBrowser": false,
+                                  "AjaxTimeout": 0,
+                                  "Pause": 0,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "SearchByImageFirst": 0,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElements": true,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {
+                                    "target": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "target",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "workOrderMain",
+                                            "Query": "",
+                                            "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "AIMS",
+                                            "CompareMode": 2,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "AIMS2"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "uj9s0KmSrqdFKGHR8Rdj99okfN0=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "ButtonTag1",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "class=p-col-6 p-button p-component"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "tagname=button"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/app-work-order-close[1]/p-dialog[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/button[1]",
+                                            "ImageSearchClauses": [],
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlButton",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 4,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "Close PM WO with labor PMResultaibctato.yro",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "dbae58f0-d2f8-4a05-a60c-71d9042f5024",
+                              "Description": "Click 'ButtonTag0'",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+                                "__value": {
+                                  "SimulateRealClick": true,
+                                  "ScrollToVisibleType": 2,
+                                  "UsejQuery": false,
+                                  "ClosesBrowser": false,
+                                  "AjaxTimeout": 0,
+                                  "Pause": 0,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "SearchByImageFirst": 0,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElements": true,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {
+                                    "target": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "target",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "workOrderMain",
+                                            "Query": "",
+                                            "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "AIMS",
+                                            "CompareMode": 2,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "AIMS2"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "MgIB1v4DGT5LgiD5qV+FHpG4YqI=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "ButtonTag0",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "TagIndex=button:2"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/app-root[1]/p-confirmdialog[1]/div[1]/div[1]/div[3]/p-footer[1]/button[2]",
+                                            "ImageSearchClauses": [],
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlButton",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 5,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "Close PM WO with labor PMResultzv5oplh1.r42",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "d89fbee9-5041-4d41-a95a-d74cc5d5ef68",
+                              "Description": "Verify input 'Text1' value 'Exact' 'Open'.",
                               "CustomDescription": null,
                               "Step": {
                                 "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.InputValueVerificationDescriptor",
@@ -1587,23 +2151,23 @@
                                           "__value": {
                                             "Path": "workOrderMain",
                                             "Query": "",
-                                            "BaseUrl": "https://aims3ts.aimsasp.net/",
+                                            "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
                                             "EquivalentUrls": [],
                                             "Fragment": "",
                                             "Title": "AIMS",
                                             "CompareMode": 2,
                                             "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "AIMS0"
+                                            "FriendlyName": "AIMS2"
                                           }
                                         },
                                         "Frame": null,
                                         "FindExpression": {
                                           "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                                           "__value": {
-                                            "uniqueKey": "G0qhCrJzHUy58ndlpyHeMA5Ifl8=",
+                                            "uniqueKey": "ERFJacbiQsxfC3zop53EQrEIl6c=",
                                             "NodeKind": 4,
                                             "TechnologyType": 1,
-                                            "Name": "WO Status",
+                                            "Name": "Text1",
                                             "FindExpressions": [
                                               {
                                                 "Key": 1,
@@ -1614,20 +2178,18 @@
                                                       {
                                                         "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                         "__value": {
-                                                          "Clause": "id=p-panel-2-content"
+                                                          "Clause": "class=p-autocomplete-input p-inputtext p-component ng-tns-c25-36 ng-star-inserted p-autocomplete-dd-input"
                                                         }
                                                       },
                                                       {
                                                         "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                         "__value": {
-                                                          "Clause": "tagIndex=input:4"
+                                                          "Clause": "tagname=input"
                                                         }
                                                       }
                                                     ],
                                                     "Constraints": [],
-                                                    "ChainStops": [
-                                                      1
-                                                    ]
+                                                    "ChainStops": []
                                                   }
                                                 }
                                               }
@@ -1639,7 +2201,7 @@
                                                 "__value": {
                                                   "Resolution": "1920, 1200",
                                                   "BroweserType": 7,
-                                                  "Image": "F3A4B8089559C96ECC8208832EA735BDD71455FA9E8B8491462B5F0B9BBD07EF",
+                                                  "Image": "88A541C0E3B020EBC1F85A1AFB4F77043DEB2E33EBD0778BF3A0A8EDC906A002",
                                                   "Index": 0,
                                                   "MatchThreshold": 90,
                                                   "OsVersion": "10.0.19042.0",
@@ -1666,11 +2228,134 @@
                                 }
                               },
                               "Enabled": true,
-                              "Order": 3,
+                              "Order": 6,
                               "Id": "",
                               "StepState": 0,
                               "ContinueOnFailure": false,
-                              "StepImageKey": "Close PM WO with labor PMResultcwmvhxmd.s4v",
+                              "StepImageKey": "Close PM WO with labor PMResultdwhtybel.e2o",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "9110694d-26ef-4564-85f3-b24910264857",
+                              "Description": "Desktop command: Drag & Drop Password to Window Target",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DragDropActionDescriptor",
+                                "__value": {
+                                  "Focus": true,
+                                  "DesktopActionType": 9,
+                                  "OffSet": {
+                                    "__type": "ArtOfTest.Common.Design.ActionPoint",
+                                    "__value": "68, 18, Pixel, TopLeftCorner"
+                                  },
+                                  "DropOffSet": {
+                                    "__type": "ArtOfTest.Common.Design.ActionPoint",
+                                    "__value": "3075, 410, Pixel, TopLeftCorner"
+                                  },
+                                  "DropTargetType": 1,
+                                  "DropWindowData": {
+                                    "__type": "ArtOfTest.Common.Design.DragDropWindowData",
+                                    "__value": "{X=1920, Y=0, Width=1920, Height=1057}"
+                                  },
+                                  "UsejQuery": false,
+                                  "ClosesBrowser": false,
+                                  "AjaxTimeout": 0,
+                                  "Pause": 0,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "SearchByImageFirst": 0,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElements": true,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {
+                                    "target": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "target",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "workOrderMain",
+                                            "Query": "",
+                                            "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "AIMS",
+                                            "CompareMode": 2,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "AIMS2"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "liDvAFwIfvN6OtXkjUN59AVUpPk=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "Password",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "placeholder=Password"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "tagname=input"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/app-root[1]/app-login-page[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/input[1]",
+                                            "ImageSearchClauses": [],
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputPassword",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 7,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "Close PM WO with labor PMResultttx1wlyr.xnp",
                               "QcId": 0,
                               "QcVersionStamp": 0,
                               "Version": 200
@@ -1709,23 +2394,23 @@
                         "__value": {
                           "Path": "workOrderMain",
                           "Query": "",
-                          "BaseUrl": "https://aims3ts.aimsasp.net/",
+                          "BaseUrl": "http://btest.pdshosting.com/AIMS3OH/",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS0"
+                          "FriendlyName": "AIMS2"
                         }
                       },
                       "Frame": null,
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "G0qhCrJzHUy58ndlpyHeMA5Ifl8=",
+                          "uniqueKey": "ERFJacbiQsxfC3zop53EQrEIl6c=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "WO Status",
+                          "Name": "Text1",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -1736,20 +2421,18 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=p-panel-2-content"
+                                        "Clause": "class=p-autocomplete-input p-inputtext p-component ng-tns-c25-36 ng-star-inserted p-autocomplete-dd-input"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagIndex=input:4"
+                                        "Clause": "tagname=input"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
+                                  "ChainStops": []
                                 }
                               }
                             }
@@ -1761,7 +2444,7 @@
                               "__value": {
                                 "Resolution": "1920, 1200",
                                 "BroweserType": 7,
-                                "Image": "F3A4B8089559C96ECC8208832EA735BDD71455FA9E8B8491462B5F0B9BBD07EF",
+                                "Image": "88A541C0E3B020EBC1F85A1AFB4F77043DEB2E33EBD0778BF3A0A8EDC906A002",
                                 "Index": 0,
                                 "MatchThreshold": 90,
                                 "OsVersion": "10.0.19042.0",
@@ -1788,11 +2471,11 @@
               }
             },
             "Enabled": true,
-            "Order": 6,
+            "Order": 7,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Close PM WO with labor PMResultjwllucoo.aw5",
+            "StepImageKey": "Close PM WO with labor PMResultqrtlue15.i1p",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
