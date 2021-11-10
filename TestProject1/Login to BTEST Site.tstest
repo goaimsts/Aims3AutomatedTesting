@@ -75,7 +75,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "5bfc056d-0984-4ffa-9510-4c9a28b90097",
-            "Description": "Enter text 'terry' in 'Text'",
+            "Description": "Enter text 'terry' in 'Username'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
@@ -127,7 +127,7 @@
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS1"
+                          "FriendlyName": "Login"
                         }
                       },
                       "Frame": null,
@@ -137,7 +137,7 @@
                           "uniqueKey": "snR+CXUUDY6z8XDUHAmft/maz/c=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Text",
+                          "Name": "Username",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -256,7 +256,7 @@
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS1"
+                          "FriendlyName": "Login"
                         }
                       },
                       "Frame": null,
@@ -393,7 +393,7 @@
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS1"
+                          "FriendlyName": "Login"
                         }
                       },
                       "Frame": null,
@@ -519,7 +519,7 @@
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS1"
+                          "FriendlyName": "Login"
                         }
                       },
                       "Frame": null,
@@ -540,13 +540,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=Sign In"
+                                        "Clause": "tagname=span"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=span"
+                                        "Clause": "TextContent=Sign In"
                                       }
                                     }
                                   ],
@@ -643,7 +643,7 @@
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS1"
+                          "FriendlyName": "Login"
                         }
                       },
                       "Frame": null,

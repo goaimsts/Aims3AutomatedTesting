@@ -196,7 +196,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "b866a9af-356b-4b63-9d00-e0a2a4202ac4",
-            "Description": "Keyboard (KeyPress) - Tab (1 times) on 'Text'",
+            "Description": "Keyboard (KeyPress) - Tab (1 times) on 'Text0'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopKeyboardActionDescriptor",
@@ -238,7 +238,7 @@
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS0"
+                          "FriendlyName": "WorkOrder2"
                         }
                       },
                       "Frame": null,
@@ -366,7 +366,7 @@
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS0"
+                          "FriendlyName": "WorkOrder2"
                         }
                       },
                       "Frame": null,
@@ -493,7 +493,7 @@
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS0"
+                          "FriendlyName": "WorkOrder2"
                         }
                       },
                       "Frame": null,
