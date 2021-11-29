@@ -111,7 +111,7 @@
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS2"
+                          "FriendlyName": "WorkOrder"
                         }
                       },
                       "Frame": null,
@@ -248,7 +248,7 @@
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS2"
+                          "FriendlyName": "WorkOrder"
                         }
                       },
                       "Frame": null,
@@ -377,7 +377,7 @@
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS2"
+                          "FriendlyName": "WorkOrder"
                         }
                       },
                       "Frame": null,
@@ -501,7 +501,7 @@
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS2"
+                          "FriendlyName": "WorkOrder"
                         }
                       },
                       "Frame": null,
@@ -626,7 +626,7 @@
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS2"
+                          "FriendlyName": "WorkOrder"
                         }
                       },
                       "Frame": null,
@@ -754,7 +754,7 @@
                               "Title": "AIMS",
                               "CompareMode": 2,
                               "AlwaysUseTitleInCompare": false,
-                              "FriendlyName": "AIMS2"
+                              "FriendlyName": "WorkOrder"
                             }
                           },
                           "Frame": null,
@@ -835,7 +835,7 @@
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                             "__value": {
                               "Runtime ID": "c2bab9eb-493c-472d-bdb6-8d244eecca45",
-                              "Description": "Click 'CloseSpan'",
+                              "Description": "Click 'WO Close Button'",
                               "CustomDescription": null,
                               "Step": {
                                 "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -874,14 +874,14 @@
                                             "Title": "AIMS",
                                             "CompareMode": 2,
                                             "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "AIMS2"
+                                            "FriendlyName": "WorkOrder"
                                           }
                                         },
                                         "Frame": null,
                                         "FindExpression": {
                                           "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                                           "__value": {
-                                            "uniqueKey": "ORx6aj6zOTsY/37tnwfuoPMbV7M=",
+                                            "uniqueKey": "pMjczL2P+5xFI8I77mgFzW8qPdA=",
                                             "NodeKind": 4,
                                             "TechnologyType": 1,
                                             "Name": "WO Close Button",
@@ -895,13 +895,19 @@
                                                       {
                                                         "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                         "__value": {
-                                                          "Clause": "TextContent=Close"
+                                                          "Clause": "tagname=button"
                                                         }
                                                       },
                                                       {
                                                         "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                         "__value": {
-                                                          "Clause": "tagname=span"
+                                                          "Clause": "icon=far fa-save"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "label=Close"
                                                         }
                                                       }
                                                     ],
@@ -911,7 +917,7 @@
                                                 }
                                               }
                                             ],
-                                            "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/div[1]/p-tabview[1]/div[1]/div[1]/p-tabpanel[2]/div[1]/app-work-order-update[1]/div[1]/div[2]/button[1]/span[2]",
+                                            "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/div[1]/p-tabview[1]/div[1]/div[1]/p-tabpanel[2]/div[1]/app-work-order-update[1]/div[1]/div[2]/button[1]",
                                             "ImageSearchClauses": [
                                               {
                                                 "__type": "ArtOfTest.Common.ImageSearchClause",
@@ -930,7 +936,7 @@
                                             "DataBindingExpressions": {}
                                           }
                                         },
-                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlButton",
                                         "IsIndependent": false,
                                         "DomStateKey": "",
                                         "TechnologyType": 1,
@@ -998,14 +1004,14 @@
                                             "Title": "AIMS",
                                             "CompareMode": 2,
                                             "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "AIMS2"
+                                            "FriendlyName": "WorkOrder"
                                           }
                                         },
                                         "Frame": null,
                                         "FindExpression": {
                                           "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                                           "__value": {
-                                            "uniqueKey": "ORx6aj6zOTsY/37tnwfuoPMbV7M=",
+                                            "uniqueKey": "pMjczL2P+5xFI8I77mgFzW8qPdA=",
                                             "NodeKind": 4,
                                             "TechnologyType": 1,
                                             "Name": "WO Close Button",
@@ -1019,13 +1025,19 @@
                                                       {
                                                         "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                         "__value": {
-                                                          "Clause": "TextContent=Close"
+                                                          "Clause": "tagname=button"
                                                         }
                                                       },
                                                       {
                                                         "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                         "__value": {
-                                                          "Clause": "tagname=span"
+                                                          "Clause": "icon=far fa-save"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "label=Close"
                                                         }
                                                       }
                                                     ],
@@ -1035,7 +1047,7 @@
                                                 }
                                               }
                                             ],
-                                            "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/div[1]/p-tabview[1]/div[1]/div[1]/p-tabpanel[2]/div[1]/app-work-order-update[1]/div[1]/div[2]/button[1]/span[2]",
+                                            "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/div[1]/p-tabview[1]/div[1]/div[1]/p-tabpanel[2]/div[1]/app-work-order-update[1]/div[1]/div[2]/button[1]",
                                             "ImageSearchClauses": [
                                               {
                                                 "__type": "ArtOfTest.Common.ImageSearchClause",
@@ -1054,7 +1066,7 @@
                                             "DataBindingExpressions": {}
                                           }
                                         },
-                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlButton",
                                         "IsIndependent": false,
                                         "DomStateKey": "",
                                         "TechnologyType": 1,
@@ -1127,7 +1139,7 @@
                                             "Title": "AIMS",
                                             "CompareMode": 2,
                                             "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "AIMS2"
+                                            "FriendlyName": "WorkOrder"
                                           }
                                         },
                                         "Frame": null,
@@ -1231,7 +1243,7 @@
                                             "Title": "AIMS",
                                             "CompareMode": 2,
                                             "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "AIMS2"
+                                            "FriendlyName": "WorkOrder"
                                           }
                                         },
                                         "Frame": null,
@@ -1341,7 +1353,7 @@
                                             "Title": "AIMS",
                                             "CompareMode": 2,
                                             "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "AIMS2"
+                                            "FriendlyName": "WorkOrder"
                                           }
                                         },
                                         "Frame": null,
@@ -1446,7 +1458,7 @@
                                             "Title": "AIMS",
                                             "CompareMode": 2,
                                             "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "AIMS2"
+                                            "FriendlyName": "WorkOrder"
                                           }
                                         },
                                         "Frame": null,
@@ -1546,7 +1558,7 @@
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                             "__value": {
                               "Runtime ID": "e7cad8c9-36d5-44bb-b43d-32442eee45d8",
-                              "Description": "Click 'CloseSpan'",
+                              "Description": "Click 'WO Close Button'",
                               "CustomDescription": null,
                               "Step": {
                                 "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -1585,14 +1597,14 @@
                                             "Title": "AIMS",
                                             "CompareMode": 2,
                                             "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "AIMS2"
+                                            "FriendlyName": "WorkOrder"
                                           }
                                         },
                                         "Frame": null,
                                         "FindExpression": {
                                           "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                                           "__value": {
-                                            "uniqueKey": "ORx6aj6zOTsY/37tnwfuoPMbV7M=",
+                                            "uniqueKey": "pMjczL2P+5xFI8I77mgFzW8qPdA=",
                                             "NodeKind": 4,
                                             "TechnologyType": 1,
                                             "Name": "WO Close Button",
@@ -1606,13 +1618,19 @@
                                                       {
                                                         "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                         "__value": {
-                                                          "Clause": "TextContent=Close"
+                                                          "Clause": "tagname=button"
                                                         }
                                                       },
                                                       {
                                                         "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                         "__value": {
-                                                          "Clause": "tagname=span"
+                                                          "Clause": "icon=far fa-save"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "label=Close"
                                                         }
                                                       }
                                                     ],
@@ -1622,7 +1640,7 @@
                                                 }
                                               }
                                             ],
-                                            "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/div[1]/p-tabview[1]/div[1]/div[1]/p-tabpanel[2]/div[1]/app-work-order-update[1]/div[1]/div[2]/button[1]/span[2]",
+                                            "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/div[1]/p-tabview[1]/div[1]/div[1]/p-tabpanel[2]/div[1]/app-work-order-update[1]/div[1]/div[2]/button[1]",
                                             "ImageSearchClauses": [
                                               {
                                                 "__type": "ArtOfTest.Common.ImageSearchClause",
@@ -1641,7 +1659,7 @@
                                             "DataBindingExpressions": {}
                                           }
                                         },
-                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlButton",
                                         "IsIndependent": false,
                                         "DomStateKey": "",
                                         "TechnologyType": 1,
@@ -1709,14 +1727,14 @@
                                             "Title": "AIMS",
                                             "CompareMode": 2,
                                             "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "AIMS2"
+                                            "FriendlyName": "WorkOrder"
                                           }
                                         },
                                         "Frame": null,
                                         "FindExpression": {
                                           "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                                           "__value": {
-                                            "uniqueKey": "ORx6aj6zOTsY/37tnwfuoPMbV7M=",
+                                            "uniqueKey": "pMjczL2P+5xFI8I77mgFzW8qPdA=",
                                             "NodeKind": 4,
                                             "TechnologyType": 1,
                                             "Name": "WO Close Button",
@@ -1730,13 +1748,19 @@
                                                       {
                                                         "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                         "__value": {
-                                                          "Clause": "TextContent=Close"
+                                                          "Clause": "tagname=button"
                                                         }
                                                       },
                                                       {
                                                         "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                         "__value": {
-                                                          "Clause": "tagname=span"
+                                                          "Clause": "icon=far fa-save"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "label=Close"
                                                         }
                                                       }
                                                     ],
@@ -1746,7 +1770,7 @@
                                                 }
                                               }
                                             ],
-                                            "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/div[1]/p-tabview[1]/div[1]/div[1]/p-tabpanel[2]/div[1]/app-work-order-update[1]/div[1]/div[2]/button[1]/span[2]",
+                                            "BackupSearchClause": "/html[1]/body[1]/app-root[1]/div[1]/div[2]/div[2]/app-work-order-main[1]/div[1]/p-tabview[1]/div[1]/div[1]/p-tabpanel[2]/div[1]/app-work-order-update[1]/div[1]/div[2]/button[1]",
                                             "ImageSearchClauses": [
                                               {
                                                 "__type": "ArtOfTest.Common.ImageSearchClause",
@@ -1765,7 +1789,7 @@
                                             "DataBindingExpressions": {}
                                           }
                                         },
-                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlButton",
                                         "IsIndependent": false,
                                         "DomStateKey": "",
                                         "TechnologyType": 1,
@@ -1838,7 +1862,7 @@
                                             "Title": "AIMS",
                                             "CompareMode": 2,
                                             "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "AIMS2"
+                                            "FriendlyName": "WorkOrder"
                                           }
                                         },
                                         "Frame": null,
@@ -1942,7 +1966,7 @@
                                             "Title": "AIMS",
                                             "CompareMode": 2,
                                             "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "AIMS2"
+                                            "FriendlyName": "WorkOrder"
                                           }
                                         },
                                         "Frame": null,
@@ -2052,7 +2076,7 @@
                                             "Title": "AIMS",
                                             "CompareMode": 2,
                                             "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "AIMS2"
+                                            "FriendlyName": "WorkOrder"
                                           }
                                         },
                                         "Frame": null,
@@ -2157,7 +2181,7 @@
                                             "Title": "AIMS",
                                             "CompareMode": 2,
                                             "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "AIMS2"
+                                            "FriendlyName": "WorkOrder"
                                           }
                                         },
                                         "Frame": null,
@@ -2294,7 +2318,7 @@
                                             "Title": "AIMS",
                                             "CompareMode": 2,
                                             "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "AIMS2"
+                                            "FriendlyName": "WorkOrder"
                                           }
                                         },
                                         "Frame": null,
@@ -2400,7 +2424,7 @@
                           "Title": "AIMS",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AIMS2"
+                          "FriendlyName": "WorkOrder"
                         }
                       },
                       "Frame": null,

@@ -52,7 +52,23 @@
                   "__value": {
                     "IsLocked": false,
                     "SearchType": 0,
+                    "AttributeName": "app-aims-dropdown"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
                     "AttributeName": "appsecurity"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "apptranslate"
                   }
                 },
                 {
